@@ -1,0 +1,29 @@
+give @s[tag=!supervivencia-z] golden_apple 16
+give @s[tag=!supervivencia-z] golden_carrot 16
+give @s[tag=!supervivencia-z] splash_potion[potion_contents="strong_strength"] 4
+give @s[tag=!supervivencia-z] splash_potion[potion_contents="strong_swiftness"] 4
+give @s[tag=!supervivencia-z] spectral_arrow 32
+give @s[tag=!supervivencia-z] tipped_arrow[potion_contents="long_slow_falling"] 32
+give @s tipped_arrow[potion_contents="strong_slowness"] 32
+give @s[tag=supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de curacion instantanea","italic":false}]',potion_contents={custom_color:16711735,custom_effects:[{id:"minecraft:instant_health",duration:4,amplifier:2,show_particles:0b}]}] 32
+give @s[tag=supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de Debilidad","italic":false}]',potion_contents={custom_color:3157293,custom_effects:[{id:"minecraft:weakness",duration:200,amplifier:2,show_particles:1b}]}] 32
+execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] golden_apple 16
+execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] golden_carrot 16
+execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] splash_potion[potion_contents="strong_strength"] 4
+execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] splash_potion[potion_contents="strong_swiftness"] 4
+execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] spectral_arrow 32
+execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] tipped_arrow[potion_contents="long_slow_falling"] 32
+execute if score @s Racha matches 12 run give @s tipped_arrow[potion_contents="strong_slowness"] 32
+execute if score @s Racha matches 12 run give @s[tag=supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de curacion instantanea","italic":false}]',potion_contents={custom_color:16711735,custom_effects:[{id:"minecraft:instant_health",duration:4,amplifier:2,show_particles:0b}]}] 32
+execute if score @s Racha matches 12 run give @s[tag=supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de Debilidad","italic":false}]',potion_contents={custom_color:3157293,custom_effects:[{id:"minecraft:weakness",duration:200,amplifier:2,show_particles:1b}]}] 32
+execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] golden_apple 16
+execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] golden_carrot 16
+execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] splash_potion[potion_contents="strong_strength"] 4
+execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] splash_potion[potion_contents="strong_swiftness"] 4
+execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] spectral_arrow 32
+execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] tipped_arrow[potion_contents="long_slow_falling"] 32
+execute if score @s Racha matches 30.. run give @s tipped_arrow[potion_contents="strong_slowness"] 32
+execute if score @s Racha matches 30.. run give @s[tag=supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de curacion instantanea","italic":false}]',potion_contents={custom_color:16711735,custom_effects:[{id:"minecraft:instant_health",duration:4,amplifier:2,show_particles:0b}]}] 32
+execute if score @s Racha matches 30.. run give @s[tag=supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de Debilidad","italic":false}]',potion_contents={custom_color:3157293,custom_effects:[{id:"minecraft:weakness",duration:200,amplifier:2,show_particles:1b}]}] 32
+tellraw @s[tag=!survival-ejecutandose] [{"text":"","bold": false},{"text":"\u2757 ","color":"red","bold": true},{"text":"R","color":"#ecfefe"},{"text":"e","color":"#dafefe"},{"text":"c","color":"#c8fefe"},{"text":"a","color":"#b5fefe"},{"text":"r","color":"#a3fefe"},{"text":"g","color":"#91fefe"},{"text":"a","color":"#7ffefe"},{"text":"n","color":"#6cfefe"},{"text":"d","color":"#5afefe"},{"text":"o ","color":"#48fefe"},{"text":"t","color":"#45fafa"},{"text":"u","color":"#51f4f4"},{"text":"s ","color":"#5deeee"},{"text":"c","color":"#69e8e8"},{"text":"o","color":"#75e2e2"},{"text":"n","color":"#81dcdc"},{"text":"s","color":"#8dd6d6"},{"text":"u","color":"#99d0d0"},{"text":"m","color":"#a5caca"},{"text":"i","color":"#b1c4c4"},{"text":"b","color":"gray"},{"text":"l","color":"#c4c4ab"},{"text":"e","color":"#caca99"},{"text":"s ","color":"#d0d087"},{"text":"p","color":"#d6d675"},{"text":"o","color":"#dcdc63"},{"text":"r ","color":"#e3e351"},{"text":"u","color":"#e9e93f"},{"text":"n","color":"#efef2d"},{"text":"a ","color":"#f5f51b"},{"text":"r","color":"#fbfb09"},{"text":"a","color":"#ffff0c"},{"text":"c","color":"#ffff24"},{"text":"h","color":"#ffff3c"},{"text":"a ","color":"#ffff55"},{"text":"d","color":"#ffff6d"},{"text":"e ","color":"#ffff85"},{"score":{"objective":"Racha","name":"@s"},"color": "gold","bold": true},{"text":" b","color":"#ffff9d"},{"text":"a","color":"#ffffb6"},{"text":"j","color":"#ffffce"},{"text":"a","color":"#ffffe6"},{"text":"s","color":"white"}]
+tellraw @s[tag=survival-ejecutandose] [{"text":"","bold": false},{"text":"\u2757 ","color":"red","bold": true},{"text":"R","color":"#dffefe"},{"text":"e","color":"#bffefe"},{"text":"c","color":"#9ffefe"},{"text":"a","color":"#7ffefe"},{"text":"r","color":"#5ffefe"},{"text":"g","color":"aqua"},{"text":"a","color":"#54f3f3"},{"text":"n","color":"#69e8e8"},{"text":"d","color":"#7edede"},{"text":"o ","color":"#93d3d3"},{"text":"t","color":"#a8c8c8"},{"text":"u","color":"gray"},{"text":"s ","color":"#c8c89e"},{"text":"c","color":"#d3d37e"},{"text":"o","color":"#dede5f"},{"text":"n","color":"#e9e93f"},{"text":"s","color":"#f4f41f"},{"text":"u","color":"#ffff00"},{"text":"m","color":"#ffff2a"},{"text":"i","color":"#ffff55"},{"text":"b","color":"#ffff7f"},{"text":"l","color":"#ffffa9"},{"text":"e","color":"#ffffd4"},{"text":"s","color":"white"}]
