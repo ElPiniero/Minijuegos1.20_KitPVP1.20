@@ -1,0 +1,14 @@
+#give @a[tag=!sesion_no_iniciada] crimson_sign{BlockEntityTag:{front_text:{has_glowing_text:0b,messages:['{"text":""}','[{"clickEvent":{"action":"run_command","value":"function kitpvp:kits/poseidon/descripcion"},"text":"P","bold":true,"color":"dark_aqua"},{"text":"O","bold":true,"color":"#48d0d0"},{"text":"S","bold":true,"color":"#91e3e3"},{"text":"E","bold":true,"color":"#daf5f5"},{"text":"I","bold":true,"color":"#ffffda"},{"text":"D","bold":true,"color":"#ffff91"},{"text":"O","bold":true,"color":"#ffff48"},{"text":"N","bold":true,"color":"#ffff00"}]','{"text":""}','{"text":""}']}}}
+playsound item.trident.hit_ground master @s ~ ~ ~ 1 1
+tellraw @s [{"text":""},{"text":"P","bold":true,"color":"dark_aqua"},{"text":"O","bold":true,"color":"#48d0d0"},{"text":"S","bold":true,"color":"#91e3e3"},{"text":"E","bold":true,"color":"#daf5f5"},{"text":"I","bold":true,"color":"#ffffda"},{"text":"D","bold":true,"color":"#ffff91"},{"text":"O","bold":true,"color":"#ffff48"},{"text":"N","bold":true,"color":"#ffff00"}]
+tellraw @s {"text": "ARMADURA:", "color": "white","bold": true}
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Pechera de Diamante","color": "gold","bold": false},{"text": ", Proteccion V","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Pantalones de Diamante","color": "gold","bold": false},{"text": ", Proteccion IV","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Botas de Oro","color": "gold","bold": false},{"text": ", Proteccion IV, Caida de Pluma IV","color": "aqua","bold": false}]
+tellraw @s {"text": "ARMAMENTO:", "color": "white","bold": true}
+tellraw @s[tag=!supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Tridente","color": "gold","bold": false},{"text": ", Filo IX, Lealtad III","color": "aqua","bold": false}]
+tellraw @s[tag=supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Tridente","color": "gold","bold": false},{"text": ", Castigo IX, Lealtad III","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "16 Bacalaos","color": "gold","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "4 Pociones de corta duracion","color": "yellow","bold": false},{"text": ", Regeneracion V","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Pocion de larga duracion","color": "gold","bold": false},{"text": ", Vision nocturna","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Pocion de larga duracion","color": "gold","bold": false},{"text": ", Resistencia II","color": "blue","bold": false}]
