@@ -1,0 +1,15 @@
+#give @p crimson_sign{BlockEntityTag:{front_text:{has_glowing_text:0b,messages:['{"text":""}','[{"clickEvent":{"action":"run_command","value":"function kitpvp:kits/enderman/descripcion"},"text":"E","bold":true,"color":"#002815"},{"text":"N","bold":true,"color":"#482e57"},{"text":"D","bold":true,"color":"#91359a"},{"text":"E","bold":true,"color":"#d93bdc"},{"text":"R","bold":true,"color":"#d93adc"},{"text":"M","bold":true,"color":"#913298"},{"text":"A","bold":true,"color":"#482a54"},{"text":"N","bold":true,"color":"#002210"}]','{"text":""}','{"text":""}']}}}
+playsound entity.enderman.ambient master @s ~ ~ ~ 1 1
+tellraw @s [{"text":""},{"text":"E","bold":true,"color":"#002815"},{"text":"N","bold":true,"color":"#482e57"},{"text":"D","bold":true,"color":"#91359a"},{"text":"E","bold":true,"color":"#d93bdc"},{"text":"R","bold":true,"color":"#d93adc"},{"text":"M","bold":true,"color":"#913298"},{"text":"A","bold":true,"color":"#482a54"},{"text":"N","bold":true,"color":"#002210"}]
+tellraw @s {"text": "ARMADURA:", "color": "white","bold": true}
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Cabeza de Ender","color": "dark_purple","bold": false},{"text": ", Salud Maxima V, Velocidad","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Pechera de Netherita","color": "gold","bold": false},{"text": ", Proteccion VI","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Pantalones de Cuero","color": "gold","bold": false},{"text": ", Proteccion IV","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Botas de Netherita","color": "gold","bold": false},{"text": ", Proteccion IV","color": "aqua","bold": false}]
+tellraw @s {"text": "ARMAMENTO:", "color": "white","bold": true}
+tellraw @s[tag=!supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Espada de Netherita","color": "gold","bold": false},{"text": ", Filo III","color": "aqua","bold": false},{"text": ", Lentitud II, Robo de vida 30%","color": "blue","bold": false}]
+tellraw @s[tag=supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Espada de Netherita","color": "gold","bold": false},{"text": ", Filo X, Barrido III","color": "aqua","bold": false},{"text": ", Lentitud II, Robo de vida 30%","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "5 Manzanas Doradas","color": "gold","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "20 Frutas de Chorus","color": "gold","bold": false},{"text": ", Saturacion, Regeneracion III","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "16 Perlas de Ender","color": "yellow","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "16 Super teletransportaciones","color": "light_purple","bold": false}]
