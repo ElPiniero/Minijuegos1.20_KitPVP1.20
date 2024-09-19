@@ -1,0 +1,11 @@
+scoreboard players enable @s Totems
+scoreboard players enable @s Torreta
+scoreboard players enable @s Recarga_Kit
+scoreboard players enable @s ManzanaEncantada
+scoreboard players enable @s Flecha
+scoreboard players enable @s Bebida_Mandarina
+scoreboard players enable @s Bebida_Fresa
+scoreboard players enable @s Bebida_Durazno
+scoreboard players enable @s Congelante
+scoreboard players enable @s Golem
+scoreboard players reset @s Carta
