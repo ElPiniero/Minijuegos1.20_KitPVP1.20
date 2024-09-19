@@ -1,0 +1,10 @@
+fill 18 92 -75 64 68 -53 light[level=10] replace air
+fill 64 68 -52 18 91 -27 light[level=10] replace air
+fill 18 92 -26 64 68 -1 light[level=10] replace air
+fill 64 92 0 18 68 26 light[level=10] replace air
+fill 12 82 -54 12 91 -42 light[level=15] replace air
+fill 13 91 -37 13 83 -3 light[level=15] replace air
+fill 13 86 -1 13 83 13 light[level=15] replace air
+fill 18 92 -52 64 92 -27 light[level=10]
+setblock 61 82 -16 redstone_lamp[lit=true]
+playsound entity.illusioner.cast_spell master @a[tag=!sesion_no_iniciada] 60 79 -16 3 2 1

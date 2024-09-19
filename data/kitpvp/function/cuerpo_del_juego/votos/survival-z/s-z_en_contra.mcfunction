@@ -1,0 +1,3 @@
+execute as @s[tag=!s-z-encontra] run scoreboard players add #contra-s-z Z-S_EnContra 1
+execute as @s[tag=!s-z-encontra] run tellraw @a[tag=!sesion_no_iniciada] [{"text": "","extra":[{"selector":"@s"}],"color": "green","bold": true},{"text": " esta a favor de la desactivacion ","color": "light_purple","bold": false},{"score":{"objective":"Z-S_EnContra","name":"#contra-s-z"},"color": "gold","bold": true},{"text": "/","color": "gold"},{"score":{"objective":"Conteo","name":"#jugadores"},"color": "gold","bold": true}]
+execute as @s[tag=!s-z-encontra] run tag @s add s-z-encontra

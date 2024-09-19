@@ -1,0 +1,3 @@
+scoreboard players add #favor-s-z Conteo 1
+tellraw @a[tag=!sesion_no_iniciada] [{"text": "","extra":[{"selector":"@s"}],"color": "green","bold": true},{"text": " esta a favor de la activacion ","color": "light_purple","bold": false},{"score":{"objective":"Conteo","name":"#favor-s-z"},"color": "gold","bold": true},{"text": "/","color": "gold"},{"score":{"objective":"Conteo","name":"#jugadores"},"color": "gold","bold": true}]
+tag @s add reinicio-afavor

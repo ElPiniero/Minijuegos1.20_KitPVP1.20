@@ -1,0 +1,3 @@
+execute as @s[tag=!s-z-afavor] run scoreboard players add #favor-s-z Conteo 1
+execute as @s[tag=!s-z-afavor] run tellraw @a[tag=!sesion_no_iniciada] [{"text": "","extra":[{"selector":"@s"}],"color": "green","bold": true},{"text": " esta a favor de la activacion ","color": "light_purple","bold": false},{"score":{"objective":"Conteo","name":"#favor-s-z"},"color": "gold","bold": true},{"text": "/","color": "gold"},{"score":{"objective":"Conteo","name":"#jugadores"},"color": "gold","bold": true}]
+execute as @s[tag=!s-z-afavor] run tag @s add s-z-afavor

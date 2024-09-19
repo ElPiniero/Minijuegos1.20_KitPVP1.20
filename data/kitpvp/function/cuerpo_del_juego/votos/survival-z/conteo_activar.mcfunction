@@ -1,0 +1,14 @@
+schedule function kitpvp:cuerpo_del_juego/votos/survival-z/conteo_activar 1s
+scoreboard players remove #tiempo-s-z Tiempo 1
+execute if score #tiempo-s-z Tiempo matches ..9 if score #favor-s-z Conteo = #jugadores Conteo run function kitpvp:cuerpo_del_juego/votos/survival-z/activado
+execute if score #tiempo-s-z Tiempo matches 5 run tellraw @a[tag=!sesion_no_iniciada] [{"text": "5 segundos para terminar la votacion ","color": "light_purple","bold": false},{"score":{"objective":"Conteo","name":"#favor-s-z"},"color": "gold","bold": true},{"text": "/","color": "gold"},{"score":{"objective":"Conteo","name":"#jugadores"},"color": "gold","bold": true}]
+execute if score #tiempo-s-z Tiempo matches 3 run tellraw @a[tag=!sesion_no_iniciada] [{"text": "3 segundos para terminar la votacion ","color": "light_purple","bold": false},{"score":{"objective":"Conteo","name":"#favor-s-z"},"color": "gold","bold": true},{"text": "/","color": "gold"},{"score":{"objective":"Conteo","name":"#jugadores"},"color": "gold","bold": true}]
+execute if score #tiempo-s-z Tiempo matches 2 run tellraw @a[tag=!sesion_no_iniciada] [{"text": "2 segundos para terminar la votacion ","color": "light_purple","bold": false},{"score":{"objective":"Conteo","name":"#favor-s-z"},"color": "gold","bold": true},{"text": "/","color": "gold"},{"score":{"objective":"Conteo","name":"#jugadores"},"color": "gold","bold": true}]
+execute if score #tiempo-s-z Tiempo matches 1 run tellraw @a[tag=!sesion_no_iniciada] [{"text": "1 segundo para terminar la votacion ","color": "light_purple","bold": false},{"score":{"objective":"Conteo","name":"#favor-s-z"},"color": "gold","bold": true},{"text": "/","color": "gold"},{"score":{"objective":"Conteo","name":"#jugadores"},"color": "gold","bold": true}]
+execute if score #tiempo-s-z Tiempo matches 0 run scoreboard players add #jugadores Conteo 2
+execute if score #tiempo-s-z Tiempo matches 0 run scoreboard players set #jugadores Operacion 2
+execute if score #tiempo-s-z Tiempo matches 0 run scoreboard players operation #jugadores Conteo /= #jugadores Operacion
+execute if score #tiempo-s-z Tiempo matches 0 if score #favor-s-z Conteo > #jugadores Conteo run function kitpvp:cuerpo_del_juego/votos/survival-z/activado
+execute if score #tiempo-s-z Tiempo matches 0 if score #favor-s-z Conteo < #jugadores Conteo run tellraw @a[tag=!sesion_no_iniciada] [{"text": "Cancelada la activacion: ","color": "light_purple","bold": false},{"text": "insuficientes votos","color": "gold","bold": true}]
+execute if score #tiempo-s-z Tiempo matches 0 if score #favor-s-z Conteo < #jugadores Conteo run playsound block.note_block.bit master @a[tag=!sesion_no_iniciada] ~ ~ ~ 10000 0
+execute if score #tiempo-s-z Tiempo matches 0 if score #favor-s-z Conteo < #jugadores Conteo run function kitpvp:cuerpo_del_juego/votos/survival-z/reinicio

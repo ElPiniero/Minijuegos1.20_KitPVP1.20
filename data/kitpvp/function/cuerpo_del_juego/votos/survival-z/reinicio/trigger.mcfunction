@@ -1,0 +1,3 @@
+execute as @s[tag=!sesion_no_iniciada,tag=Operador_Minijuegos] if data storage supervivencia-zombis {Iniciado:1b} at @s run function kitpvp:solitario/reinicio
+execute as @s[tag=!sesion_no_iniciada,tag=!Operador_Minijuegos,tag=!reinicio-afavor] if data storage supervivencia-zombis {Iniciado:1b} unless entity @a[tag=!sesion_no_iniciada,tag=reinicio-afavor] at @s run function kitpvp:cuerpo_del_juego/votos/survival-z/reinicio/activando
+execute as @s[tag=!sesion_no_iniciada,tag=!Operador_Minijuegos,tag=!reinicio-afavor] if data storage supervivencia-zombis {Iniciado:1b} if entity @a[tag=!sesion_no_iniciada,tag=reinicio-afavor] run function kitpvp:cuerpo_del_juego/votos/survival-z/reinicio/s-z_a_favor
