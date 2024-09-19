@@ -1,0 +1,6 @@
+tellraw @s [{"text": "| ","color": "dark_green","obfuscated": true},{"text": "Escopeta","color": "dark_purple","obfuscated": false,"bold": true},{"text": " |","color": "dark_green","obfuscated": true}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Cadencia = ","color": "gray","bold": false},{"text": "0.8s","color": "dark_purple","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Municion = ","color": "gray","bold": false},{"text": "8","color": "dark_purple","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Daño = ","color": "gray","bold": false},{"text": "(Esquina=5f)(Medio=15f)(Centro=30f)","color": "dark_purple","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Alcance = ","color": "gray","bold": false},{"text": "25m","color": "dark_purple","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Coste de armamento = ","color": "gray","bold": false},{"text": "2","color": "dark_purple","bold": false}]

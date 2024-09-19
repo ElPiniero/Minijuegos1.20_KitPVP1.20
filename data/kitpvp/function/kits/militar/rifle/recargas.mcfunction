@@ -1,0 +1,11 @@
+execute if entity @s[tag=!Recarga] run summon interaction ~ ~ ~ {Tags:["r-recargar"],width:.5f,height:.1f,response:true}
+execute if entity @s[tag=!Recarga] run tag @s add Recarga
+execute as @s[nbt={OnGround:1b}] run execute as @e[tag=r-recargar,type=interaction] at @s positioned as @p[tag=Recarga] run tp @s ~ ~ ~
+execute as @s[nbt={OnGround:0b}] run execute as @e[tag=r-recargar,type=interaction] at @s positioned as @p[tag=Recarga] run tp @s ~ ~-1 ~
+execute as @e[tag=r-recargar,type=interaction,sort=nearest,limit=1,distance=..2] on attacker if entity @s[tag=!R-Recargar] run summon item ~ ~ ~ {Item:{id:"minecraft:arrow",count:1,components:{"minecraft:custom_name":'{"color":"white","italic":false,"text":"Bala de Rifle"}'}}}
+execute as @e[tag=r-recargar,type=interaction,sort=nearest,limit=1,distance=..2] on attacker if entity @s[tag=!R-Recargar] store result entity @e[type=item,sort=nearest,limit=1] Item.count byte 1 run scoreboard players get @s Municion_Rifle
+execute as @e[tag=r-recargar,type=interaction,sort=nearest,limit=1,distance=..2] on attacker if entity @s[tag=!R-Recargar] run scoreboard players set @s Municion_Rifle 0
+execute as @e[tag=r-recargar,type=interaction,sort=nearest,limit=1,distance=..2] on attacker if entity @s[tag=!R-Recargar] run item replace entity @s weapon.mainhand with crossbow[unbreakable={},custom_name='{"text":"Rifle de Asalto","italic":false,"color":"green"}']
+execute as @e[tag=r-recargar,type=interaction,sort=nearest,limit=1,distance=..2,nbt={attack:{}}] run data remove entity @s attack 
+execute if entity @s[nbt=!{SelectedItem:{components:{"minecraft:custom_name":'{"color":"green","italic":false,"text":"Rifle de Asalto"}'},count:1,id:"minecraft:crossbow"}},tag=Recarga] run kill @e[tag=r-recargar,type=interaction,sort=nearest,limit=1,distance=..2]
+execute if entity @s[nbt=!{SelectedItem:{components:{"minecraft:custom_name":'{"color":"green","italic":false,"text":"Rifle de Asalto"}'},count:1,id:"minecraft:crossbow"}},tag=Recarga] run tag @s remove Recarga

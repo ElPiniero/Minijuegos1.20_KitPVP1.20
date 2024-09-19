@@ -1,0 +1,6 @@
+tellraw @s [{"text": "| ","color": "dark_green","obfuscated": true},{"text": "Lanzamisiles","color": "gold","obfuscated": false,"bold": true},{"text": " |","color": "dark_green","obfuscated": true}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Cadencia = ","color": "gray","bold": false},{"text": "---","color": "gold","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Municion = ","color": "gray","bold": false},{"text": "1","color": "gold","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Daño = ","color": "gray","bold": false},{"text": "(Esquina=7.5f)(Medio=25f)(Centro=40f)","color": "gold","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Alcance = ","color": "gray","bold": false},{"text": "400m","color": "gold","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Coste de armamento = ","color": "gray","bold": false},{"text": "2","color": "gold","bold": false}]

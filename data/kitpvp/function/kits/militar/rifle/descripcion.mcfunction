@@ -1,0 +1,6 @@
+tellraw @s [{"text": "| ","color": "dark_green","obfuscated": true},{"text": "Rifle de Asalto","color": "green","obfuscated": false,"bold": true},{"text": " |","color": "dark_green","obfuscated": true}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Cadencia = ","color": "gray","bold": false},{"text": "0.1s","color": "green","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Municion = ","color": "gray","bold": false},{"text": "40","color": "green","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Daño = ","color": "gray","bold": false},{"text": "5f","color": "green","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Alcance = ","color": "gray","bold": false},{"text": "100m","color": "green","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Coste de armamento = ","color": "gray","bold": false},{"text": "2","color": "green","bold": false}]

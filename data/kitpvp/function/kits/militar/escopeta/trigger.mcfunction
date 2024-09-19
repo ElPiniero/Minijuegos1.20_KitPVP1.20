@@ -1,0 +1,4 @@
+tag @s[nbt={SelectedItem:{components:{"minecraft:custom_name":'{"color":"dark_purple","italic":false,"text":"Escopeta"}'},count:1,id:"minecraft:crossbow"}},tag=!Escopeta] add Escopeta
+execute as @s[tag=Escopeta] run function kitpvp:kits/militar/escopeta/materiales
+tag @s[nbt=!{SelectedItem:{components:{"minecraft:custom_name":'{"color":"dark_purple","italic":false,"text":"Escopeta"}'},count:1,id:"minecraft:crossbow"}},tag=Escopeta] remove Recarga
+tag @s[nbt=!{SelectedItem:{components:{"minecraft:custom_name":'{"color":"dark_purple","italic":false,"text":"Escopeta"}'},count:1,id:"minecraft:crossbow"}},tag=Escopeta] remove Escopeta

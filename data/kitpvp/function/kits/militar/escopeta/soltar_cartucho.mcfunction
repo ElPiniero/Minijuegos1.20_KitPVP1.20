@@ -1,0 +1,9 @@
+execute if entity @s[tag=!Recarga] run summon interaction ~ ~ ~ {Tags:["e-recargar"],width:.5f,height:.1f,response:true}
+execute if entity @s[tag=!Recarga] run tag @s add Recarga
+execute as @s[nbt={OnGround:1b}] run execute as @e[tag=e-recargar,type=interaction] at @s positioned as @p[tag=Recarga] run tp @s ~ ~ ~
+execute as @s[nbt={OnGround:0b}] run execute as @e[tag=e-recargar,type=interaction] at @s positioned as @p[tag=Recarga] run tp @s ~ ~-1 ~
+execute as @e[tag=e-recargar,type=interaction,sort=nearest,limit=1,distance=..2] on attacker if entity @s[tag=!E-Recargar] unless score @s Disparo-Escopeta matches 8.. run scoreboard players add @s Escopeta-cooldown 1
+execute as @e[tag=e-recargar,type=interaction,sort=nearest,limit=1,distance=..2] on attacker if entity @s[tag=!E-Recargar] unless score @s Disparo-Escopeta matches 8.. run item replace entity @s weapon.mainhand with crossbow[unbreakable={},enchantments={quick_charge:4},custom_name='[{"text":"Escopeta","italic":false,"color":"dark_purple"}]']
+execute as @e[tag=e-recargar,type=interaction,sort=nearest,limit=1,distance=..2,nbt={attack:{}}] run data remove entity @s attack 
+execute if entity @s[nbt=!{SelectedItem:{components:{"minecraft:custom_name":'{"color":"dark_purple","italic":false,"text":"Escopeta"}'},count:1,id:"minecraft:crossbow"}},tag=Recarga] run kill @e[tag=e-recargar,type=interaction,sort=nearest,limit=1,distance=..2]
+execute if entity @s[nbt=!{SelectedItem:{components:{"minecraft:custom_name":'{"color":"dark_purple","italic":false,"text":"Escopeta"}'},count:1,id:"minecraft:crossbow"}},tag=Recarga] run tag @s remove Recarga
