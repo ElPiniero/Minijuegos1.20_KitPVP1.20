@@ -1,0 +1,6 @@
+execute if score @s Racha matches 2 run item replace entity @s armor.chest with leather_chestplate[unbreakable={},enchantments={binding_curse:1,protection:5},dyed_color=16438484]
+execute if score @s Racha matches 6 run item replace entity @s armor.chest with leather_chestplate[unbreakable={},enchantments={binding_curse:1,protection:5},dyed_color=16548482]
+execute if score @s Racha matches 12 run item replace entity @s armor.chest with leather_chestplate[unbreakable={},enchantments={binding_curse:1,protection:5},dyed_color=16201270,trim={material:"minecraft:copper",pattern:"minecraft:coast"}]
+execute if score @s Racha matches 20 run item replace entity @s armor.chest with leather_chestplate[unbreakable={},enchantments={binding_curse:1,protection:5},dyed_color=16711680,trim={material:"minecraft:redstone",pattern:"minecraft:host"}]
+execute if score @s Racha matches 30 run item replace entity @s armor.chest with leather_chestplate[unbreakable={},enchantments={binding_curse:1,protection:5},dyed_color=11272192,trim={material:"minecraft:redstone",pattern:"minecraft:dune"}]
+execute if score @s Racha matches 42 run item replace entity @s armor.chest with leather_chestplate[unbreakable={},enchantments={binding_curse:1,protection:5},dyed_color=4784128,trim={material:"minecraft:redstone",pattern:"minecraft:silence"}]

@@ -1,0 +1,3 @@
+execute as @s[nbt={SelectedItem:{id:"minecraft:goat_horn",components:{"minecraft:custom_name":'{"italic":false,"text":"Escuadrones"}'}}},tag=!Escuadrones] run tag @s add Escuadrones
+execute if score @s[tag=Escuadrones] Llamar_Escuadron matches 1.. run function kitpvp:kits/sicario/escuadrones/invocacion
+execute as @s[nbt=!{SelectedItem:{id:"minecraft:goat_horn",components:{"minecraft:custom_name":'{"italic":false,"text":"Escuadrones"}'}}},tag=Escuadrones] run tag @s remove Escuadrones

@@ -1,0 +1,3 @@
+execute unless score @p[tag=!sesion_no_iniciada,tag=Sicario,tag=!revisado] INESoldado = @s INESoldado run tag @p[tag=!sesion_no_iniciada,tag=Sicario,tag=!revisado] add revisado
+execute if score @p[tag=!sesion_no_iniciada,tag=Sicario,tag=!revisado] INESoldado = @s INESoldado run tag @p[tag=!sesion_no_iniciada,tag=Sicario,tag=!revisado] add leatineescuadron
+execute if entity @a[tag=Sicario,tag=!sesion_no_iniciada,tag=!revisado] unless entity @a[tag=Sicario,tag=leatineescuadron,tag=!sesion_no_iniciada] run function kitpvp:kits/sicario/escuadrones/encontrar_sicario
