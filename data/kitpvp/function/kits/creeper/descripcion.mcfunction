@@ -1,0 +1,16 @@
+#give @p crimson_sign{BlockEntityTag:{front_text:{has_glowing_text:0b,messages:['{"text":""}','[{"clickEvent":{"action":"run_command","value":"function kitpvp:kits/creeper/descripcion"},"text":"CR","color":"dark_green","bold":true},{"text":"EE","color":"white"},{"text":"PE","color":"green"},{"text":"R","color":"gray"}]','{"text":""}','{"text":""}']}}}
+playsound entity.creeper.hurt master @s ~ ~ ~ 1
+tellraw @s [{"text":"CR","color":"dark_green","bold": true},{"text":"EE","color":"white"},{"text":"PE","color":"green"},{"text":"R","color":"gray"}]
+tellraw @s {"text": "ARMADURA:", "color": "white","bold": true}
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Cabeza de Creeper","color": "dark_purple","bold": false},{"text": ", Proteccion IV","color": "aqua","bold": false},{"text": ", Invisibilidad, Velocidad","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Pechera de Cuero","color": "gold","bold": false},{"text": ", Proteccion V","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Pantalones de Cuero","color": "gold","bold": false},{"text": ", Proteccion V","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Botas de Cuero","color": "gold","bold": false},{"text": ", Proteccion V","color": "aqua","bold": false}]
+tellraw @s {"text": "ARMAMENTO:", "color": "white","bold": true}
+tellraw @s[tag=!supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Espada de diamante","color": "gold","bold": false},{"text": ", Filo II","color": "aqua","bold": false},{"text": ", Caida Lenta","color": "blue","bold": false}]
+tellraw @s[tag=supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Espada de diamante","color": "gold","bold": false},{"text": ", Filo X, Barrido III","color": "aqua","bold": false},{"text": ", Curacion instantanea II","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "16 Rebanadas de sandia","color": "yellow","bold": false},{"text": ", Curacion instantanea, Regeneracion II","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "15 Polvoras calientes","color": "light_purple","bold": false}]
+tellraw @s[tag=!supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "3 Pociones arrojadizas de corta duracion","color": "yellow","bold": false},{"text": ", Ceguera","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "3 Pociones arrojadizas con amplificador","color": "yellow","bold": false},{"text": ", Lentitud IV","color": "blue","bold": false}]
+tellraw @s[tag=supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "3 Pociones arrojadizas con amplificador","color": "yellow","bold": false},{"text": ", Curacion instantanea III","color": "blue","bold": false}]
