@@ -1,0 +1,20 @@
+{
+    "values":[
+        "minecraft:arrow",
+        "minecraft:spectral_arrow",
+        "minecraft:snowball",
+        "minecraft:tnt",
+        "minecraft:item",
+        "minecraft:experience_orb",
+        "minecraft:area_effect_cloud",
+        "minecraft:egg",
+        "minecraft:trident",
+        "minecraft:interaction",
+        "minecraft:lightning_bolt",
+        "minecraft:item_display",
+        "minecraft:snow_golem",
+        "minecraft:iron_golem",
+        "minecraft:fishing_bobber",
+        "minecraft:block_display"
+    ]
+}

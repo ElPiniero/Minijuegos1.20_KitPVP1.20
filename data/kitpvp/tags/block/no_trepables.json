@@ -1,0 +1,12 @@
+{
+    "values":[
+        "minecraft:tall_grass",
+        "minecraft:vine",
+        "minecraft:air",
+        "minecraft:void_air",
+        "minecraft:cave_air",
+        "minecraft:barrier",
+        "minecraft:light"
+
+    ]
+}
