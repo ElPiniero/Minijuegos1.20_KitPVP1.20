@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:player_head",
+        "components": {"minecraft:profile":{"id":[907160796,1821854615,-1727336627,-176309982],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ=="}]}}
+      },
+      "title": {
+        "text": "KITPVP 1.20",
+        "color": "light_purple",
+        "bold": true
+    },
+      "description": 
+      {
+        "text":"¡Aqui estan las metas que puedes realizar en este hermoso servidor!",
+        "color": "gold"
+},
+      "show_toast": false,
+      "announce_to_chat": false,
+      "frame": "task",
+      "hidden": true,
+      "background": "minecraft:textures/block/red_nether_bricks.png"
+    },
+    "criteria": {"": {
+      "trigger": "minecraft:impossible"
+    }},
+    "sends_telemetry_event": false
+  }
+  

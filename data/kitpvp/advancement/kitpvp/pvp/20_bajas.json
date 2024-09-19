@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_sword",
+        "components": {"minecraft:enchantments":{"minecraft:mending":1}}
+      },
+      "title": {
+        "text": "Diez veces es mejor",
+        "color": "red"
+    },
+      "description": 
+      {
+        "text":"Obtén una asombrosa racha de 20 bajas",
+        "color": "green"
+},
+      "show_toast": true,
+      "announce_to_chat": true,
+      "frame": "goal",
+      "hidden": false
+    },
+    "parent": "kitpvp:kitpvp/pvp/2_bajas",
+    "criteria": {"": {
+      "trigger": "minecraft:impossible"
+    }},
+    "sends_telemetry_event": false
+  }

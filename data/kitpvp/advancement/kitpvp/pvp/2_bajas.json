@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_sword"
+      },
+      "title": {
+        "text": "El comienzo de la serie",
+        "color": "aqua"
+    },
+      "description": 
+      {
+        "text":"Obtén una racha de 2 bajas",
+        "color": "green"
+},
+      "show_toast": true,
+      "announce_to_chat": true,
+      "frame": "task",
+      "hidden": false
+    },
+    "parent": "kitpvp:kitpvp/primer_kit",
+    "criteria": {"": {
+      "trigger": "minecraft:impossible"
+    }},
+    "sends_telemetry_event": false
+  }

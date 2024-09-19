@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {"minecraft:profile":{"id":[-804656834,-1873066121,-1468338666,666915680],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBkYjczMTY4Y2JkMGU0ZWRlMzc0ZmUwNWRkYWYxYWViMGEzNjUxMzY2MmEwODkyYzFlZWIxMTYyMjE3NTRlZiJ9fX0="}]}}
+    },
+    "title": {
+      "text": "¡Ahora emboscan!",
+      "color": "red"
+  },
+    "description": 
+    {
+      "text":"Sobrevive hasta la horda 4",
+      "color": "green"
+},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "goal",
+    "hidden": false
+  },
+  "parent": "kitpvp:kitpvp/zombis/tercera_horda",
+  "criteria": {"": {
+    "trigger": "minecraft:impossible"
+  }},
+  "sends_telemetry_event": false
+}

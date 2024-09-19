@@ -1,0 +1,37 @@
+{
+    
+  "criteria": {
+    "killed_player": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"Stray\"]}"
+              }
+            }
+          ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:player",
+              "distance": {
+                "horizontal": {
+                  "min": 24.0
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {"type": "#impact_projectiles"}
+        }
+      }
+    }
+  }
+  }
+  

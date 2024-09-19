@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_helmet",
+        "components": {"minecraft:unbreakable":{},"minecraft:enchantments":{"protection":4,"thorns":3},"minecraft:trim":{"material":"minecraft:emerald","pattern":"minecraft:tide"}}
+      },
+      "title": {
+        "text": "Especialista del OVERWORLD",
+        "color": "light_purple",
+        "bold": true
+    },
+      "description": 
+      {
+        "text":"Realiza 150 bajas usando el Kit CABALLERO DEL OVERWORLD",
+        "color": "green"
+},
+      "show_toast": true,
+      "announce_to_chat": true,
+      "frame": "challenge",
+      "hidden": false
+    },
+    "parent": "kitpvp:kitpvp/pvp/racha_6_cdo",
+    "criteria": {"": {
+      "trigger": "minecraft:impossible"
+    }},
+    "sends_telemetry_event": false
+  }

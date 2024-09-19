@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "title": {
+        "text": "Mas resultados, menos defectos",
+        "color": "red"
+    },
+      "description": 
+      {
+        "text":"Consigue una poderosa escala de 2 Bajas por Muerte (200 B/M)",
+        "color": "green"
+},
+      "show_toast": true,
+      "announce_to_chat": true,
+      "frame": "goal",
+      "hidden": false
+    },
+    "parent": "kitpvp:kitpvp/pvp/2_bajas",
+    "criteria": {"": {
+      "trigger": "minecraft:impossible"
+    }},
+    "sends_telemetry_event": false
+  }

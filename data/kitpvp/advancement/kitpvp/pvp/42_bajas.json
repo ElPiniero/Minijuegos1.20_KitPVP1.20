@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:netherite_sword",
+        "components": {"minecraft:enchantments":{"minecraft:mending":1}}
+      },
+      "title": {
+        "text": "¡Caballero Indomable!",
+        "color": "light_purple",
+        "bold": true
+    },
+      "description": 
+      {
+        "text":"Obtén una increíble racha de 42 bajas",
+        "color": "green"
+},
+      "show_toast": true,
+      "announce_to_chat": true,
+      "frame": "challenge",
+      "hidden": false
+    },
+    "parent": "kitpvp:kitpvp/pvp/20_bajas",
+    "criteria": {"": {
+      "trigger": "minecraft:impossible"
+    }},
+    "sends_telemetry_event": false
+  }

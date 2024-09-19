@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:zombie_villager_spawn_egg"
+      },
+      "title": {
+        "text": "SUPERVIVENCIA ZOMBIS",
+        "color": "dark_red",
+        "bold": true
+    },
+      "description": 
+      {
+        "text":"¿Podras sobrevivir para contar sobre estos desafios?",
+        "color": "gold"
+},
+      "show_toast": false,
+      "announce_to_chat": false,
+      "frame": "task",
+      "hidden": true
+    },
+    "parent": "kitpvp:kitpvp/kitpvp",
+    "criteria": {"": {
+      "trigger": "minecraft:impossible"
+    }},
+    "sends_telemetry_event": false
+  }

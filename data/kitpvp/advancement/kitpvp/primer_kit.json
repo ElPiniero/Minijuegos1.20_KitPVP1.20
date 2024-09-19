@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:crimson_sign"
+      },
+      "title": {
+        "text": "Veamos que tal",
+        "color": "aqua"
+    },
+      "description": 
+      {
+        "text":"Entra a cualquier casilla y usa cualquier kit",
+        "color": "green"
+},
+      "show_toast": true,
+      "announce_to_chat": true,
+      "frame": "task",
+      "hidden": false
+    },
+    "parent": "kitpvp:kitpvp/gente_sofisticada",
+    "criteria": {"": {
+      "trigger": "minecraft:impossible"
+    }},
+    "sends_telemetry_event": false
+  }

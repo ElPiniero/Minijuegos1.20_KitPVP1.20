@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:player_head",
+        "components": {"minecraft:profile":{"id":[497516715,1285898468,-1867405708,1391631657],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIzZTIwZTQ4ZmZjZTk0ZjVkZTU1NTM3MDgwMWMzMDQ1ZDNiZDQxMDYzZmNlOTliMjk2OTVhNTIzMzU1YWEzIn19fQ=="}]}}
+      },
+      "title": {
+        "text": "¡Polimata!",
+        "color": "red"
+    },
+      "description": 
+      {
+        "text":"Realiza una racha de 2 bajas usando todos los Kits",
+        "color": "green"
+},
+      "show_toast": true,
+      "announce_to_chat": true,
+      "frame": "goal",
+      "hidden": false
+    },
+    "parent": "kitpvp:kitpvp/primer_kit",
+    "criteria": {"": {
+      "trigger": "minecraft:impossible"
+    }},
+    "sends_telemetry_event": false
+  }
