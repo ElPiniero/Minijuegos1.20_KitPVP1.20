@@ -1,0 +1,26 @@
+#setblock 10 232 140 minecraft:dark_oak_wall_sign[facing=east,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['""','""','""','""']},front_text:{color:"black",has_glowing_text:0b,messages:['""','{"color":"light_purple","text":"Configuracion de"}','{"extra":[{"color":"light_purple","obfuscated":true,"text":"|"},{"bold":true,"color":"light_purple","text":" Kit PVP"},{"color":"light_purple","obfuscated":true,"text":" |"}],"text":""}','""']},is_waxed:0b}
+#give @a[tag=!sesion_no_iniciada] crimson_sign{BlockEntityTag:{front_text:{has_glowing_text:0b,messages:['{"text":""}','[{"clickEvent":{"action":"run_command","value":"function kitpvp:kits/stray/descripcion"},"text":"S","bold":true,"color":"blue"},{"text":"T","bold":true,"color":"#1f7ede"},{"text":"R","bold":true,"color":"dark_aqua"},{"text":"A","bold":true,"color":"#5fbebe"},{"text":"Y","bold":true,"color":"gray"}]','{"text":""}','{"text":""}']}}}
+playsound entity.stray.ambient master @s ~ ~ ~ 1
+tellraw @s [{"text":""},{"text":"S","bold":true,"color":"blue"},{"text":"T","bold":true,"color":"#1f7ede"},{"text":"R","bold":true,"color":"dark_aqua"},{"text":"A","bold":true,"color":"#5fbebe"},{"text":"Y","bold":true,"color":"gray"}]
+tellraw @s {"text": "ARMADURA:", "color": "white","bold": true}
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Casco de Cuero","color": "gold","bold": false},{"text": ", Proteccion IV","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Pechera de Cota de Malla","color": "gold","bold": false},{"text": ", Proteccion V, Proteccion contra Proyectiles V","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Pantalones de Diamante","color": "gold","bold": false},{"text": ", Proteccion V","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "Botas de Cuero","color": "gold","bold": false},{"text": ", Proteccion IV","color": "aqua","bold": false}]
+tellraw @s {"text": "ARMAMENTO:", "color": "white","bold": true}
+tellraw @s[tag=!supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Arco","color": "gold","bold": false},{"text": ", Poder VII, Retroceso I, Fuego II","color": "aqua","bold": false}]
+tellraw @s[tag=supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Arco","color": "gold","bold": false},{"text": ", Poder XXX, Retroceso IV, Fuego II","color": "aqua","bold": false}]
+tellraw @s[tag=!supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Ballesta","color": "gold","bold": false},{"text": ", Carga rapida II, Perforacion I, Poder III","color": "aqua","bold": false}]
+tellraw @s[tag=supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Ballesta","color": "gold","bold": false},{"text": ", Carga rapida IV, Perforacion IV, Poder VI","color": "aqua","bold": false}]
+tellraw @s[tag=!supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Ballesta","color": "gold","bold": false},{"text": ", Carga rapida II, Multidisparo, Poder III","color": "aqua","bold": false}]
+tellraw @s[tag=supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "Ballesta","color": "gold","bold": false},{"text": ", Carga rapida V, Multidisparo, Poder VI","color": "aqua","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "16 Conejos asados","color": "gold","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "10 Cubetas de Leche","color": "gold","bold": false}]
+tellraw @s[tag=!supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "64 Flechas con efecto paralizante","color": "yellow","bold": false},{"text": ", Lentitud IV, Oscuridad","color": "blue","bold": false}]
+tellraw @s[tag=!supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "64 Flechas con efecto retrasante","color": "yellow","bold": false},{"text": ", Debilidad, Fatiga Minera III","color": "blue","bold": false}]
+tellraw @s[tag=!supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "64 Flechas con efecto","color": "yellow","bold": false},{"text": ", Daño instantaneo II","color": "blue","bold": false}]
+tellraw @s[tag=supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "64 Flechas con efecto paralizante","color": "yellow","bold": false},{"text": ", Lentitud VII, Levitacion","color": "blue","bold": false}]
+tellraw @s[tag=supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "64 Flechas con efecto retrasante","color": "yellow","bold": false},{"text": ", Debilidad IV, Wither IV","color": "blue","bold": false}]
+tellraw @s[tag=supervivencia-z] [{"text": "- ","color": "dark_gray","bold": true},{"text": "64 Flechas con efecto","color": "yellow","bold": false},{"text": ", Curacion instantanea V","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "16 Flechas con efecto","color": "yellow","bold": false},{"text": ", Curacion instantanea VI","color": "blue","bold": false}]
+tellraw @s [{"text": "- ","color": "dark_gray","bold": true},{"text": "6 Perlas de Ender","color": "light_purple","bold": false}]

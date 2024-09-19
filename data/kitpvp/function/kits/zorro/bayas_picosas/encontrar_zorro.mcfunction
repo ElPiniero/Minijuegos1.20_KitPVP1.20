@@ -1,0 +1,3 @@
+execute unless score @a[tag=!sesion_no_iniciada,sort=nearest,limit=1,tag=Zorro,tag=!revisado] INESoldado = @s INESoldado run tag @a[tag=!sesion_no_iniciada,sort=nearest,limit=1,tag=Zorro,tag=!revisado] add revisado
+execute if score @a[tag=!sesion_no_iniciada,sort=nearest,limit=1,tag=Zorro,tag=!revisado] INESoldado = @s INESoldado run tag @a[tag=!sesion_no_iniciada,sort=nearest,limit=1,tag=Zorro,tag=!revisado] add leatine
+execute if entity @a[tag=Zorro,tag=!revisado,tag=!sesion_no_iniciada] unless entity @a[tag=Zorro,tag=leatine,tag=!sesion_no_iniciada] run function kitpvp:kits/zorro/bayas_picosas/encontrar_zorro
