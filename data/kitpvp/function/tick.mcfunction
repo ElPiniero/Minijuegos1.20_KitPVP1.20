@@ -17,7 +17,7 @@ execute as @a[tag=!sesion_no_iniciada,tag=Sicario] at @s run function kitpvp:kit
 execute as @a[tag=!sesion_no_iniciada,tag=Stray] at @s run function kitpvp:kits/stray/materiales
 execute as @a[tag=!sesion_no_iniciada,tag=Neon] at @s run function kitpvp:kits/neon/materiales
 function kitpvp:cuerpo_del_juego/cosmeticos
-execute as @e[tag=M-Bala,type=interaction] at @s run function kitpvp:kits/militar/lanzamisiles/proyectil
+execute as @e[type=interaction,tag=M-Bala] at @s run function kitpvp:kits/militar/lanzamisiles/avance
 execute as @e[type=interaction,tag=Nexo,tag=!activado] at @s run function kitpvp:kits/nexo/nexos/activacion
 execute as @e[type=interaction,tag=Nexo,tag=activado] at @s unless entity @e[type=block_display,tag=nexo_prendido,sort=nearest,limit=1,distance=...9] on target if entity @s run function kitpvp:kits/nexo/nexos/carga
 execute as @e[type=interaction,tag=Nexo,tag=activado] at @s if entity @e[type=block_display,tag=nexo_prendido,sort=nearest,limit=1,distance=...9] on target if entity @s run function kitpvp:kits/nexo/nexos/explosion

@@ -1,0 +1,2 @@
+execute as @s[tag=!yachoco] anchored eyes positioned ^ ^ ^1 run function kitpvp:kits/militar/lanzamisiles/proyectil
+execute as @s[tag=!yachoco] anchored eyes positioned ^ ^ ^2 run function kitpvp:kits/militar/lanzamisiles/proyectil
