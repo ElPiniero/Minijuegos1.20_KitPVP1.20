@@ -1,20 +1,27 @@
-#give @p snow_golem_spawn_egg{CanPlaceOn:["#kitpvp:colocables"],EntityTag:{id:"snow_golem",Pumpkin:0,DeathLootTable:"kitpvp:entities/zombi",Health:100,PersistenceRequired:1b,Silent:1b,Tags:["Torreta"],active_effects:[{id:"invisibility",duration:-1,amplifier:0,show_particles:0b}],Attributes:[{Name:"generic.knockback_resistance",Base:1d},{Name:"generic.max_health",Base:100d}]},display:{Name:'[{"text":"Torreta","italic":false,"color":"red"}]'}} 1
 function kitpvp:kits/ine-soldado
 team join Supervivientes @s
-execute as @s[tag=!activado] run summon interaction ~ ~ ~ {height:.5f,width:1f,Tags:["Cerebro_Torreta"]}
-execute as @s[tag=!activado] run summon item_display ~ ~1.75 ~ {item:{id:"minecraft:observer",count:1b},Tags:["Cabeza_Torreta"],teleport_duration:1}
-execute as @s[tag=!activado] run summon item_display ~ ~.8 ~ {item:{id:"minecraft:stone_brick_wall",count:1b},Tags:["Cuerpo_Torreta"],teleport_duration:1}
-execute as @s[tag=!activado] run summon item_display ~ ~.5 ~ {item:{id:"minecraft:deepslate_tile_slab",count:1b},Tags:["Pies_Torreta"],teleport_duration:1}
-execute as @s[tag=!activado] positioned ~ ~1.75 ~ store result score @e[tag=Cabeza_Torreta,limit=1,sort=nearest,distance=...9] INESoldado run scoreboard players get @s INESoldado
-execute as @s[tag=!activado] positioned ~ ~.8 ~ store result score @e[tag=Cuerpo_Torreta,limit=1,sort=nearest,distance=...9] INESoldado run scoreboard players get @s INESoldado
-execute as @s[tag=!activado] positioned ~ ~.5 ~ store result score @e[tag=Pies_Torreta,limit=1,sort=nearest,distance=...9] INESoldado run scoreboard players get @s INESoldado
-execute as @s[tag=!activado] store result score @e[tag=Cerebro_Torreta,limit=1,sort=nearest,distance=...9] INESoldado run scoreboard players get @s INESoldado
-execute as @s[tag=!activado] run ride @s mount @e[tag=Cerebro_Torreta,limit=1,sort=nearest,distance=...9]
-execute as @s[tag=!activado] positioned ~ ~1.75 ~ anchored eyes rotated as @s if score @e[tag=Cabeza_Torreta,limit=1,sort=nearest,distance=...9] INESoldado = @s INESoldado run tp @e[tag=Cabeza_Torreta,limit=1,sort=nearest,distance=...9] ~ ~ ~ ~ ~
-execute as @s[tag=!activado] positioned ~ ~.8 ~ if score @e[tag=Cuerpo_Torreta,limit=1,sort=nearest,distance=...9] INESoldado = @s INESoldado run tp @e[tag=Cuerpo_Torreta,limit=1,sort=nearest,distance=...9] ~ ~ ~ ~ ~
-execute as @s[tag=!activado] positioned ~ ~.5 ~ rotated ~ 0 if score @e[tag=Pies_Torreta,limit=1,sort=nearest,distance=...9] INESoldado = @s INESoldado run tp @e[tag=Pies_Torreta,limit=1,sort=nearest,distance=...9] ~ ~ ~ ~ ~
-execute as @s[tag=!activado] run playsound item.trident.return master @a[tag=!sesion_no_iniciada] ~ ~ ~ 3 0
-execute as @s[tag=!activado] run playsound item.crossbow.loading_end master @a[tag=!sesion_no_iniciada] ~ ~ ~ 3 0
-execute as @s[tag=!activado] run playsound item.crossbow.loading_end master @a[tag=!sesion_no_iniciada] ~ ~ ~ 3 1
-execute as @s[tag=!activado] run playsound item.crossbow.loading_end master @a[tag=!sesion_no_iniciada] ~ ~ ~ 3 2
-execute as @s[tag=!activado] run tag @s add activado
+summon interaction ~ ~ ~ {height:.5f,width:1f,Tags:["Cerebro_Torreta","nuevo"]}
+summon item_display ~ ~1.75 ~ {item:{id:"minecraft:observer",count:1b},Tags:["Cabeza_Torreta","nuevo"],teleport_duration:1,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon item_display ~ ~.8 ~ {item:{id:"minecraft:stone_brick_wall",count:1b},Tags:["Cuerpo_Torreta","nuevo"],teleport_duration:1,teleport_duration:1,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+summon item_display ~ ~.5 ~ {item:{id:"minecraft:deepslate_tile_slab",count:1b},Tags:["Pies_Torreta","nuevo"],teleport_duration:1,teleport_duration:1,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]}}
+
+scoreboard players operation @n[type=item_display,tag=Cabeza_Torreta,tag=nuevo] INESoldado = @s INESoldado
+scoreboard players operation @n[type=item_display,tag=Cuerpo_Torreta,tag=nuevo] INESoldado = @s INESoldado
+scoreboard players operation @n[type=item_display,tag=Pies_Torreta,tag=nuevo] INESoldado = @s INESoldado
+scoreboard players operation @n[type=interaction,tag=Cerebro_Torreta,tag=nuevo] INESoldado = @s INESoldado
+
+execute rotated as @s run rotate @n[type=item_display,tag=Cabeza_Torreta,tag=nuevo] ~ ~
+execute rotated as @s run rotate @n[type=item_display,tag=Cuerpo_Torreta,tag=nuevo] ~ ~
+ride @s mount @n[type=interaction,tag=Cerebro_Torreta,tag=nuevo]
+
+playsound item.trident.return master @a[tag=!sesion_no_iniciada] ~ ~ ~ 3 0
+playsound item.crossbow.loading_end master @a[tag=!sesion_no_iniciada] ~ ~ ~ 3 0
+playsound item.crossbow.loading_end master @a[tag=!sesion_no_iniciada] ~ ~ ~ 3 1
+playsound item.crossbow.loading_end master @a[tag=!sesion_no_iniciada] ~ ~ ~ 3 2
+
+tag @n[type=item_display,tag=Cabeza_Torreta,tag=nuevo] remove nuevo
+tag @n[type=item_display,tag=Cuerpo_Torreta,tag=nuevo] remove nuevo
+tag @n[type=item_display,tag=Pies_Torreta,tag=nuevo] remove nuevo
+tag @n[type=item_display,tag=Cerebro_Torreta,tag=nuevo] remove nuevo
+
+tag @s add activado

@@ -1,14 +1,14 @@
-give @s[tag=!supervivencia-z] melon_slice 16
+give @s[tag=!supervivencia-z] melon_slice[item_model="minecraft:tnt",custom_name='{"text": "TNT rica","italic": false}'] 16
 give @s gunpowder[custom_name='[{"text":"Polvora caliente","italic":false,"color":"gold"}]'] 15
 execute as @s[tag=!supervivencia-z] run give @s splash_potion[minecraft:custom_name='[{"text":"Pocion arrojadiza de ceguera","italic":false}]',minecraft:potion_contents={custom_color:3026478,custom_effects:[{amplifier:0,duration:600,id:"minecraft:blindness",show_particles:1b}]},max_stack_size=3] 3
 execute as @s[tag=supervivencia-z] run give @s splash_potion[minecraft:custom_name='[{"text":"Pocion arrojadiza de curacion instantanea","italic":false}]',minecraft:potion_contents={custom_color:16711680,custom_effects:[{amplifier:3,duration:20,id:"minecraft:instant_health",show_particles:1b}]},max_stack_size=3] 3
 give @s splash_potion[minecraft:potion_contents={potion:"strong_slowness"},max_stack_size=3] 3
-execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] melon_slice 16
+execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] melon_slice[item_model="minecraft:tnt",custom_name='{"text": "TNT rica","italic": false}'] 16
 execute if score @s Racha matches 12 run give @s gunpowder[custom_name='[{"text":"Polvora caliente","italic":false,"color":"gold"}]'] 15
 execute if score @s Racha matches 12 run execute as @s[tag=!supervivencia-z] run give @s splash_potion[minecraft:custom_name='[{"text":"Pocion arrojadiza de ceguera","italic":false}]',minecraft:potion_contents={custom_color:3026478,custom_effects:[{amplifier:0,duration:600,id:"minecraft:blindness",show_particles:1b}]},max_stack_size=3] 3
 execute if score @s Racha matches 12 run execute as @s[tag=supervivencia-z] run give @s splash_potion[minecraft:custom_name='[{"text":"Pocion arrojadiza de curacion instantanea","italic":false}]',minecraft:potion_contents={custom_color:16711680,custom_effects:[{amplifier:3,duration:20,id:"minecraft:instant_health",show_particles:1b}]},max_stack_size=3] 3
 execute if score @s Racha matches 12 run give @s splash_potion[minecraft:potion_contents={potion:"strong_slowness"},max_stack_size=3] 3
-execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] melon_slice 16
+execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] melon_slice[item_model="minecraft:tnt",custom_name='{"text": "TNT rica","italic": false}'] 16
 execute if score @s Racha matches 30.. run give @s gunpowder[custom_name='[{"text":"Polvora caliente","italic":false,"color":"gold"}]'] 15
 execute if score @s Racha matches 30.. run execute as @s[tag=!supervivencia-z] run give @s splash_potion[minecraft:custom_name='[{"text":"Pocion arrojadiza de ceguera","italic":false}]',minecraft:potion_contents={custom_color:3026478,custom_effects:[{amplifier:0,duration:600,id:"minecraft:blindness",show_particles:1b}]},max_stack_size=3] 3
 execute if score @s Racha matches 30.. run execute as @s[tag=supervivencia-z] run give @s splash_potion[minecraft:custom_name='[{"text":"Pocion arrojadiza de curacion instantanea","italic":false}]',minecraft:potion_contents={custom_color:16711680,custom_effects:[{amplifier:3,duration:20,id:"minecraft:instant_health",show_particles:1b}]},max_stack_size=3] 3

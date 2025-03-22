@@ -8,8 +8,9 @@ execute if score @s Pegar matches 1.. if predicate kitpvp:30 run effect give @s 
 execute if score @s SuTe matches 1 run particle portal ~ ~1 ~ .1 .1 .1 1 100 normal
 execute if score @s Chorus matches 1 run effect give @s saturation 4 0 true
 execute if score @s Chorus matches 1 run effect give @s regeneration 5 2 false
-execute if score @s Totem matches 1 run effect give @s health_boost infinite 4 true
-execute if score @s Totem matches 1 run effect give @s speed infinite 0 true
+
+effect give @s health_boost infinite 4 true
+effect give @s speed infinite 0 true
 execute if score @s[tag=!Jugador_Zombi] Damage matches 1.. run playsound entity.enderman.hurt master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1
 scoreboard players reset @s[scores={Pegar=1..}] Pegar
 scoreboard players reset @s[scores={Chorus=1}] Chorus

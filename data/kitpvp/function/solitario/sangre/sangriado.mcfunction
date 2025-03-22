@@ -1,8 +1,11 @@
-execute as @e[type=item_display,tag=Sangre_1] at @s run function kitpvp:solitario/sangre/animacion_1
-execute as @e[type=item_display,tag=Sangre_2] at @s run function kitpvp:solitario/sangre/animacion_2
-execute as @e[type=item_display,tag=Sangre_3] at @s run function kitpvp:solitario/sangre/animacion_3
-execute as @e[type=item_display,tag=Sangre_4] at @s run function kitpvp:solitario/sangre/animacion_4
-execute as @e[type=item_display,tag=Sangre_5] at @s run function kitpvp:solitario/sangre/animacion_5
-execute as @e[type=item_display,tag=Sangre_6] at @s run function kitpvp:solitario/sangre/animacion_6
-execute as @e[type=item_display,tag=Sangre_7] at @s run function kitpvp:solitario/sangre/animacion_7
-execute as @e[type=item_display,tag=Sangre_8] at @s run function kitpvp:solitario/sangre/animacion_8
+scoreboard players reset #cantidad-sangre Conteo
+execute as @e[type=item_display,tag=Sangre] run scoreboard players add #cantidad-sangre Conteo 1
+
+execute on vehicle if entity @s run particle block{block_state:"minecraft:nether_wart_block"} ~ ~ ~ 0 0 0 1 1 force
+particle block_crumble{block_state:"minecraft:nether_wart_block"} ~ ~ ~ 0.1 0.1 0.1 1 1 force
+execute on vehicle if data entity @s[type=item] {OnGround:1b} run kill @s
+scoreboard players add @s Conteo 1
+execute if score @s Conteo matches 100.. run kill @s
+
+execute on vehicle run return fail
+execute if score #cantidad-sangre Conteo matches 50.. run kill @s

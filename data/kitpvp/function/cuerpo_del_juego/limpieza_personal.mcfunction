@@ -1,3 +1,5 @@
+attribute @s attack_knockback base set 0
+attribute @s jump_strength base set .4
 tag @s remove R-Recargar
 tag @s remove NoRifleRecargado
 tag @s remove E-Recargar
@@ -7,7 +9,6 @@ tag @s remove NoEscopetaRecargada
 tag @s remove Cartucho
 tag @s remove Escopeta
 tag @s remove bienvenido
-tag @s remove Misil
 tag @s remove cdn
 tag @s remove fr
 tag @s remove survival-normal
@@ -59,7 +60,6 @@ tag @s remove Escopeta
 tag @s remove Rifle
 tag @s remove s-z-afavor
 tag @s remove s-z-encontra
-tag @s remove Misil
 tag @s remove Recargado
 tag @s remove sin_iniciar
 tag @s remove LanzadorBayaPicosa
@@ -85,9 +85,11 @@ scoreboard players reset @s SuTe
 scoreboard players reset @s AgarrarDiamante
 scoreboard players reset @s Enganchado
 scoreboard players reset @s Huevo
+scoreboard players reset @s RegistrarDiamante
 scoreboard players reset @s Jugadores
 scoreboard players reset @s Bayabrillosa
 scoreboard players reset @s Catalejo
+scoreboard players reset @s militar-descargar
 scoreboard players reset @s Arco
 scoreboard players reset @s Estadisticas
 scoreboard players reset @s Baja_Zombi
@@ -116,7 +118,6 @@ scoreboard players reset @s ZombieShop
 scoreboard players reset @s Conteo
 scoreboard players reset @s Limpieza
 scoreboard players reset @s Recargar
-scoreboard players reset @s Tridente_Viaje
 scoreboard players reset @s Llamando_Oleada
 scoreboard players reset @s Torreta
 scoreboard players reset @s Encender_Creeper

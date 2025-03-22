@@ -1,5 +1,5 @@
 give @s[tag=!supervivencia-z] cooked_rabbit 16
-execute as @s[tag=!supervivencia-z] run give @s milk_bucket[max_stack_size=10] 10
+execute as @s[tag=!supervivencia-z] run give @s milk_bucket[max_stack_size=10,consumable={consume_seconds:1,on_consume_effects:[{type:"clear_all_effects"}]}] 10
 give @s[tag=!supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha paralizante","italic": false}]',potion_contents={custom_color:63487,custom_effects:[{id:"minecraft:slowness",duration:600,amplifier:3,show_particles:1b},{id:"darkness",duration:600,amplifier:0,show_particles:1b}]}] 64
 give @s[tag=!supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha retrasadora","italic": false}]',potion_contents={custom_color:6396588,custom_effects:[{id:"minecraft:weakness",duration:600,amplifier:0,show_particles:1b},{id:"mining_fatigue",duration:600,amplifier:2,show_particles:1b}]}] 64
 give @s[tag=!supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de daño instantaneo","italic": false}]',potion_contents={custom_color:11960949,custom_effects:[{id:"minecraft:instant_damage",duration:1,amplifier:1,show_particles:1b}]}] 64
@@ -10,7 +10,7 @@ give @s[tag=supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de curac
 give @s[tag=supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de curacion instantanea","italic": false}]',potion_contents={custom_color:16711680,custom_effects:[{id:"minecraft:instant_health",duration:10,amplifier:5,show_particles:1b}]}] 16
 give @s ender_pearl 6
 execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] cooked_rabbit 16
-execute if score @s Racha matches 12 run execute as @s[tag=!supervivencia-z] run give @s milk_bucket[max_stack_size=10] 10
+execute if score @s Racha matches 12 run execute as @s[tag=!supervivencia-z] run give @s milk_bucket[max_stack_size=10,consumable={consume_seconds:1,on_consume_effects:[{type:"clear_all_effects"}]}] 10
 execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha paralizante","italic": false}]',potion_contents={custom_color:63487,custom_effects:[{id:"minecraft:slowness",duration:600,amplifier:3,show_particles:1b},{id:"darkness",duration:600,amplifier:0,show_particles:1b}]}] 64
 execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha retrasadora","italic": false}]',potion_contents={custom_color:6396588,custom_effects:[{id:"minecraft:weakness",duration:600,amplifier:0,show_particles:1b},{id:"mining_fatigue",duration:600,amplifier:2,show_particles:1b}]}] 64
 execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de daño instantaneo","italic": false}]',potion_contents={custom_color:11960949,custom_effects:[{id:"minecraft:instant_damage",duration:1,amplifier:1,show_particles:1b}]}] 64
@@ -21,7 +21,7 @@ execute if score @s Racha matches 12 run give @s[tag=supervivencia-z] tipped_arr
 execute if score @s Racha matches 12 run give @s[tag=supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de curacion instantanea","italic": false}]',potion_contents={custom_color:16711680,custom_effects:[{id:"minecraft:instant_health",duration:10,amplifier:5,show_particles:1b}]}] 16
 execute if score @s Racha matches 12 run give @s ender_pearl 6
 execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] cooked_rabbit 16
-execute if score @s Racha matches 30.. run execute as @s[tag=!supervivencia-z] run give @s milk_bucket[max_stack_size=10] 10
+execute if score @s Racha matches 30.. run execute as @s[tag=!supervivencia-z] run give @s milk_bucket[max_stack_size=10,consumable={consume_seconds:1,on_consume_effects:[{type:"clear_all_effects"}]}] 10
 execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha paralizante","italic": false}]',potion_contents={custom_color:63487,custom_effects:[{id:"minecraft:slowness",duration:600,amplifier:3,show_particles:1b},{id:"darkness",duration:600,amplifier:0,show_particles:1b}]}] 64
 execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha retrasadora","italic": false}]',potion_contents={custom_color:6396588,custom_effects:[{id:"minecraft:weakness",duration:600,amplifier:0,show_particles:1b},{id:"mining_fatigue",duration:600,amplifier:2,show_particles:1b}]}] 64
 execute if score @s Racha matches 30.. run give @s[tag=!supervivencia-z] tipped_arrow[custom_name='[{"text":"Flecha de daño instantaneo","italic": false}]',potion_contents={custom_color:11960949,custom_effects:[{id:"minecraft:instant_damage",duration:1,amplifier:1,show_particles:1b}]}] 64

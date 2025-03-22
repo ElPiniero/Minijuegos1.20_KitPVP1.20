@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "effects": {
+        "minecraft:instant_health": {
+          "duration": {
+            "min": 2,
+            "max": 200
+          }
+        }
+      }
+    }
+  }

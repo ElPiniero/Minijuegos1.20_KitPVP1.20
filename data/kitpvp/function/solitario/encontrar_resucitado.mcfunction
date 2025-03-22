@@ -1,3 +1,0 @@
-execute unless score @p[tag=!sesion_no_iniciada,tag=Esperando_Resucitacion,tag=!revisado] INESoldado = @s INESoldado run tag @p[tag=!sesion_no_iniciada,tag=Esperando_Resucitacion,tag=!revisado] add revisado
-execute if score @p[tag=!sesion_no_iniciada,tag=Esperando_Resucitacion,tag=!revisado] INESoldado = @s INESoldado run tag @p[tag=!sesion_no_iniciada,tag=Esperando_Resucitacion,tag=!revisado] add Resucitado
-execute if entity @a[tag=Esperando_Resucitacion,tag=!sesion_no_iniciada,tag=!revisado] unless entity @a[tag=Esperando_Resucitacion,tag=Resucitado,tag=!sesion_no_iniciada] run function kitpvp:solitario/encontrar_resucitado

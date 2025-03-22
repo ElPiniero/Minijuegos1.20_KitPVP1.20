@@ -4,5 +4,5 @@ execute as @e[type=block_display,tag=Pastel,tag=yamerodisparado] if score @s INE
 execute positioned ~ ~1 ~ as @e[type=#arrows,sort=nearest,limit=1,distance=..2] on passengers run tag @s remove yamerodisparado
 execute positioned ~ ~1 ~ as @e[type=#arrows,sort=nearest,limit=1,distance=..2] on passengers run tag @s add disparado
 
-clear @s cake 1
+execute if items entity @s weapon.offhand cake run clear @s cake 1
 scoreboard players reset @s Arco

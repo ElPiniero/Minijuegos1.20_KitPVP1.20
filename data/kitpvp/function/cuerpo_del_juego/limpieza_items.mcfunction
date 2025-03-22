@@ -1,4 +1,4 @@
-scoreboard players add @e[type=item,nbt=!{Item:{id:"minecraft:diamond"}},nbt=!{Item:{id:"minecraft:light_blue_concrete"}}] Limpieza 1
+scoreboard players add @e[type=item,tag=!Motion_Tumba,tag=!Sangre,nbt=!{Item:{id:"minecraft:diamond"}},nbt=!{Item:{id:"minecraft:light_blue_concrete"}}] Limpieza 1
 execute as @e[type=item,scores={Limpieza=1}] run data merge entity @s {CustomName:'[{"text":"0:05","color":"green"}]',CustomNameVisible:1b}
 execute as @e[type=item,scores={Limpieza=1}] at @s run playsound block.lever.click master @a[tag=!sesion_no_iniciada] ~ ~ ~ 0.3 2
 execute as @e[type=item,scores={Limpieza=2}] run data merge entity @s {CustomName:'[{"text":"0:04","color":"yellow"}]',CustomNameVisible:1b}

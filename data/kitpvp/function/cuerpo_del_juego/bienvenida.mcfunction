@@ -6,7 +6,7 @@ advancement grant @s only kitpvp:kitpvp/kitpvp
 scoreboard players reset #jugadores Conteo
 execute as @a[tag=!sesion_no_iniciada] run scoreboard players add #jugadores Conteo 1
 stopsound @s master music_disc.chirp
-function kitpvp:kits/ine-soldado
+scoreboard players operation @s INESoldado = @s id-de-usuario
 tag @s add zona_de_kits
 scoreboard players set @s Conteo_Racha 2
 execute unless data storage supervivencia-zombis {Iniciado:1b} run gamemode adventure @s

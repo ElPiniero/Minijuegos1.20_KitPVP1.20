@@ -5,8 +5,8 @@ give @s potion[minecraft:potion_contents={potion:"long_swiftness"},max_stack_siz
 execute as @s[tag=!supervivencia-z] run give @s splash_potion[minecraft:custom_name='[{"text":"Pocion arrojadiza de lentitud","italic":false}]',minecraft:potion_contents={custom_color:3486017,custom_effects:[{amplifier:3,duration:1800,id:"minecraft:slowness",show_particles:1b}]},max_stack_size=5] 5
 execute as @s[tag=supervivencia-z] run give @s splash_potion[minecraft:custom_name='[{"text":"Pocion arrojadiza de lentitud","italic":false}]',minecraft:potion_contents={custom_color:3486017,custom_effects:[{amplifier:6,duration:1800,id:"minecraft:slowness",show_particles:1b}]},max_stack_size=5] 5
 give @s enchanted_golden_apple
-give @s totem_of_undying
-give @s totem_of_undying
+give @s[tag=!supervivencia-z] totem_of_undying 2
+give @s[tag=supervivencia-z] totem_of_undying[death_protection={death_effects:[{type:"minecraft:apply_effects",effects:[{id:"minecraft:resistance",amplifier:4,duration:60,show_particles:1b,show_icon:1b,ambient:0b}]},{type:"minecraft:play_sound",sound:"item.totem.use"}]}] 2
 give @s arrow 64
 give @s arrow 64
 execute if score @s Racha matches 12 run give @s[tag=!survival-ejecutandose] golden_apple 10

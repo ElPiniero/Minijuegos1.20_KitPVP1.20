@@ -1,0 +1,2 @@
+$execute unless data storage supervivencia-zombis {Activado:1b} run data merge entity @s {item:{components:{"minecraft:enchantments":{levels:{"minecraft:sharpness":$(Potencia)}}}}}
+$execute if data storage supervivencia-zombis {Activado:1b} run data merge entity @s {item:{components:{"minecraft:enchantments":{levels:{"minecraft:smite":$(Potencia)}}}}}

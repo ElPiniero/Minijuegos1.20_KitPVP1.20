@@ -2,18 +2,28 @@ gamemode spectator @s
 scoreboard players remove @s bajas_jugador 1
 tag @s add morido
 tag @s add Esperando_Resucitacion
-summon item_display ~ ~ ~ {teleport_duration:1,Tags:["Pies_Tumba"],item:{id:"minecraft:chiseled_stone_bricks",count:1}}
-summon item_display ~ ~1 ~ {Tags:["Cuerpo_Tumba"],item:{id:"minecraft:stone_brick_wall",count:1b},teleport_duration:1}
-summon item_display ~ ~2 ~ {teleport_duration:1,Tags:["Cabeza_Tumba"],item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-1344885345,-980727653,-1683878162,-969622091],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk4MzA2NWVkNjk3Yzg0YTg2MDJiNDZkN2I4ZWJmZjNjZGEzNDYxMTJmZDY5MDNiOTEyOTZlYjM4ZWYxOWU0ZSJ9fX0="}]}}}}
-summon interaction ~ ~1 ~ {response:1b,Tags:["Cerebro_Tumba"]}
-summon text_display ~ ~2.25 ~ {alignment:"center",billboard:"vertical",Tags:["Nombre_Tumba"],text:'[{"text": "","extra":[{"selector":"@a[tag=morido,limit=1]"}],"color": "dark_red","bold": true}]'}
-execute positioned ~ ~1 ~ run scoreboard players operation @e[type=interaction,tag=Cerebro_Tumba,sort=nearest,limit=1,distance=..1] INESoldado = @s INESoldado
-scoreboard players operation @e[type=item_display,tag=Pies_Tumba,sort=nearest,limit=1,distance=..1] INESoldado = @s INESoldado
-execute positioned ~ ~1 ~ run scoreboard players operation @e[type=item_display,tag=Cuerpo_Tumba,sort=nearest,limit=1,distance=..1] INESoldado = @s INESoldado
-execute positioned ~ ~2 ~ run scoreboard players operation @e[type=item_display,tag=Cabeza_Tumba,sort=nearest,limit=1,distance=..1] INESoldado = @s INESoldado
-execute positioned ~ ~2.25 ~ run scoreboard players operation @e[type=text_display,tag=Nombre_Tumba,sort=nearest,limit=1,distance=..1] INESoldado = @s INESoldado
-execute positioned ~ ~2 ~ run data modify entity @e[tag=Cabeza_Tumba,limit=1,sort=nearest,distance=..1] Rotation.[0] set from entity @s Rotation.[0]
-execute positioned ~ ~2.25 ~ run data modify entity @e[tag=Nombre_Tumba,limit=1,sort=nearest,distance=..1] Rotation.[0] set from entity @s Rotation.[0]
+
+tag @s add morido
+summon item_display ~ ~ ~ {teleport_duration:1,Tags:["Pies_Tumba","nuevo"],item:{id:"minecraft:chiseled_stone_bricks",count:1}}
+summon item_display ~ ~ ~ {Tags:["Cuerpo_Tumba","nuevo"],item:{id:"minecraft:stone_brick_wall",count:1},teleport_duration:1,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1f,0f],scale:[1f,1f,1f]}}
+summon item_display ~ ~ ~ {teleport_duration:1,Tags:["Cabeza_Tumba","nuevo"],item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-1131791004,-94091108,-1532324962,1630265044],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU4ZjZiZjVkN2YwZTY4YzIxODhiNTFkMDM4N2Y3MjYzYzVkYmQ1NjNlZmFjM2JjYmU0MmUzZTQ4YWVjMGM3ZCJ9fX0="}]}}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,2f,0f],scale:[1f,1f,1f]}}
+summon interaction ~ ~ ~ {response:1b,Tags:["Cerebro_Tumba","nuevo"],height:2f}
+summon text_display ~ ~ ~ {alignment:"center",billboard:"vertical",Tags:["Nombre_Tumba","nuevo"],text:'[{"text": "","extra":[{"selector":"@a[tag=morido,limit=1]"}],"color": "white","bold": true}]',transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,2.25f,0f],scale:[1f,1f,1f]}}
+summon item ~ ~ ~ {Invulnerable:1b,PickupDelay:999s,Item:{id:"minecraft:stone",count:1},Tags:["Motion_Tumba","nuevo"]}
+tag @s remove morido
+
+scoreboard players operation #ine-tumba INESoldado = @s INESoldado
+scoreboard players operation @n[type=interaction,tag=nuevo,tag=Cerebro_Tumba] INESoldado = #ine-tumba INESoldado
+
+data modify entity @n[type=item_display,tag=Cabeza_Tumba,tag=nuevo] Rotation.[0] set from entity @s Rotation.[0]
+execute as @n[tag=Cerebro_Tumba,tag=nuevo] run ride @n[type=item_display,tag=Pies_Tumba,tag=nuevo] mount @n[type=item,tag=Motion_Tumba,tag=nuevo]
+execute as @n[tag=Cerebro_Tumba,tag=nuevo] run ride @n[type=item_display,tag=Cuerpo_Tumba,tag=nuevo] mount @n[type=item,tag=Motion_Tumba,tag=nuevo]
+execute as @n[tag=Cerebro_Tumba,tag=nuevo] run ride @n[type=item_display,tag=Cabeza_Tumba,tag=nuevo] mount @n[type=item,tag=Motion_Tumba,tag=nuevo]
+execute as @n[tag=Cerebro_Tumba,tag=nuevo] run ride @n[type=text_display,tag=Nombre_Tumba,tag=nuevo] mount @n[type=item,tag=Motion_Tumba,tag=nuevo]
+execute as @n[tag=Cerebro_Tumba,tag=nuevo] run ride @s mount @n[type=item,tag=Motion_Tumba,tag=nuevo]
+execute as @n[tag=Cerebro_Tumba,tag=nuevo] on passengers run tag @s remove nuevo
+execute as @n[tag=Cerebro_Tumba,tag=nuevo] run tag @s remove nuevo
+
 execute as @s[tag=entregar_diamante] run scoreboard players operation @s ZombieShop += @s RegistrarDiamante
 execute as @s[tag=entregar_diamante] run clear @s diamond
 execute as @s[tag=!entregar_diamante] run scoreboard players operation @s ZombieShop_Base = @s ZombieShop

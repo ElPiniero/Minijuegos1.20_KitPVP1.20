@@ -11,4 +11,5 @@ tellraw @a[tag=!sesion_no_iniciada] [{"text":"","extra":[{"selector":"@s"}],"bol
 tag @s remove Jugador_Vivo
 tag @s remove s-z-afavor
 scoreboard players remove #jugadores-vivos Conteo 1
+execute unless entity @a[tag=!sesion_no_iniciada,tag=Jugador_Vivo,gamemode=adventure] unless entity @a[tag=!sesion_no_iniciada,scores={Reaparecer=1..}] run schedule function kitpvp:solitario/hordas/derrota 6 replace
 tag @s add zona_de_kits

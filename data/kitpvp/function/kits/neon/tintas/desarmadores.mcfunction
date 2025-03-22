@@ -1,4 +1,3 @@
 particle dust{color:[0.231,0.424,0.941],scale:1} ^ ^ ^.5 0 0 0 0 1 force
 execute unless block ^ ^ ^ #kitpvp:pasables run scoreboard players set @s Alcance-Bala 120
 execute positioned ~-.1 ~-.1 ~-.1 if entity @e[type=#zombies,sort=nearest,limit=1,dx=0] positioned ~-.7 ~-.7 ~-.7 if entity @e[type=#zombies,sort=nearest,limit=1,dx=0] as @e[type=#zombies,sort=nearest,limit=1,dx=0] run function kitpvp:kits/neon/tintas/desarmado
-execute positioned ~-.1 ~-.1 ~-.1 if entity @e[type=#zombies,sort=nearest,limit=1,dx=0] positioned ~-.7 ~-.7 ~-.7 if entity @e[type=#zombies,sort=nearest,limit=1,dx=0] run scoreboard players add @s Alcance-Bala 10

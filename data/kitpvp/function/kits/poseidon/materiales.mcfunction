@@ -1,2 +1,0 @@
-execute if score @s Tridente_Viaje matches 1 run tag @e[type=trident,sort=nearest,limit=1,distance=..2] add tridente_viaje
-execute if score @s Tridente_Viaje matches 1 if score @e[type=trident,sort=nearest,limit=1,distance=..2,tag=tridente_viaje] INESoldado = @s INESoldado run ride @s mount @e[type=trident,sort=nearest,limit=1,distance=..2,tag=tridente_viaje]

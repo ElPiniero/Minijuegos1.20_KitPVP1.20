@@ -1,3 +1,0 @@
-execute unless score @e[type=trident,sort=nearest,limit=1] INESoldado = @s INESoldado run tag @e[type=trident,sort=nearest,limit=1] add revisado
-execute if score @e[type=trident,sort=nearest,limit=1] INESoldado = @s INESoldado run tag @e[type=trident,sort=nearest,limit=1] add mi-tridente
-execute if entity @e[type=trident,tag=!revisado] unless entity @e[type=trident,tag=mi-tridente] run function kitpvp:kits/poseidon/encontrar_tridente

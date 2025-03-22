@@ -5,11 +5,13 @@ execute as @a[tag=!sesion_no_iniciada] run scoreboard players add #jugadores Con
 scoreboard players reset #tiempo-s-z
 scoreboard players reset #favor-s-z
 scoreboard players reset #contra-s-z
-setblock 10 231 140 air
-execute unless entity @a[tag=!sesion_no_iniciada,tag=supervivencia-z] run setblock 9 231 140 light_gray_concrete
-execute unless entity @a[tag=!sesion_no_iniciada,tag=supervivencia-z] run setblock 10 231 140 dark_oak_wall_sign[facing=east,waterlogged=false]{front_text:{messages:['{"clickEvent":{"action":"run_command","value":"/execute if block 9 231 140 light_gray_concrete run function kitpvp:cuerpo_del_juego/kitpvp_survival-z_si"},"text":""}','{"bold":true,"color":"dark_red","text":"SUPERVIVENCIA"}','{"bold":true,"color":"dark_gray","text":"ZOMBIS"}','{"text":""}']}}
-execute if entity @a[tag=!sesion_no_iniciada,tag=supervivencia-z] run setblock 9 231 140 lime_concrete
-execute if entity @a[tag=!sesion_no_iniciada,tag=supervivencia-z] run setblock 10 231 140 dark_oak_wall_sign[facing=east,waterlogged=false]{front_text:{messages:['{"clickEvent":{"action":"run_command","value":"/execute as @p run function kitpvp:cuerpo_del_juego/kitpvp_survival-z_no"},"text":""}','{"bold":true,"color":"dark_red","text":"SUPERVIVENCIA"}','{"bold":true,"color":"dark_gray","text":"ZOMBIS"}','{"text":""}']}}
+
+execute unless entity @a[tag=!sesion_no_iniciada,tag=supervivencia-z] run data modify entity @n[type=item_display,tag=modo-zombis] item.components."minecraft:profile" set value {id:[I;-1679339935,-1900460474,-1502236591,1080088365],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0="}]}
+execute unless entity @a[tag=!sesion_no_iniciada,tag=supervivencia-z] run data modify entity @n[type=item_display,tag=modo-zombis] Glowing set value 0b
+
+execute if entity @a[tag=!sesion_no_iniciada,tag=supervivencia-z] run data modify entity @n[type=item_display,tag=modo-zombis] glow_color_override set value 655104
+execute if entity @a[tag=!sesion_no_iniciada,tag=supervivencia-z] run data modify entity @n[type=item_display,tag=modo-zombis] item.components."minecraft:profile" set value {id:[I;-1298853024,282739304,-1179761505,-941630072],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE2NjlkNDAwNGFmMTc2MDM3ZTk3NTJlMWFlOGVhMmMyZGJhMzJkMDU3MDI1NmQzNGJjM2RkYWU4MGZhZmFiZSJ9fX0="}]}
+
 tag @a[tag=!sesion_no_iniciada] remove s-z-afavor
 tag @a[tag=!sesion_no_iniciada] remove s-z-encontra
 tag @a[tag=!sesion_no_iniciada] remove en_votacion

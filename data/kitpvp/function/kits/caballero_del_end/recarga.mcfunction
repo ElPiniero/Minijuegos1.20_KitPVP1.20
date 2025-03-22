@@ -6,7 +6,7 @@ execute as @s[tag=!supervivencia-z] run give @s splash_potion[minecraft:custom_n
 execute as @s[tag=supervivencia-z] run give @s splash_potion[minecraft:custom_name='{"italic":false,"text":"Pocion arrojadiza de Debilidad"}',minecraft:potion_contents={custom_color:3684106,custom_effects:[{id:"minecraft:weakness",amplifier:2,duration:400,show_particles:1b}]},max_stack_size=5] 5
 give @s[tag=!supervivencia-z] tipped_arrow[custom_name='{"italic":false,"text":"Flecha de Levitacion"}',potion_contents={custom_color:14478583,custom_effects:[{id:"minecraft:levitation",amplifier:0,duration:100,show_particles:0b}]}] 64
 give @s[tag=supervivencia-z] tipped_arrow[custom_name='{"italic":false,"text":"Flecha de Levitacion"}',potion_contents={custom_color:14478583,custom_effects:[{id:"minecraft:levitation",amplifier:4,duration:100,show_particles:0b}]}] 64
-execute if score @s Racha matches 12 run give @s[tag=!survival-ejecutandose] pumpkin_pie 20
+execute if score @s Racha matches 12 run give @s pumpkin_pie 20
 execute if score @s Racha matches 12 run give @s enchanted_golden_apple 3
 execute if score @s Racha matches 12 run give @s potion[potion_contents={potion:"minecraft:long_strength"}] 1
 execute if score @s Racha matches 12 run give @s potion[custom_name='{"italic":false,"text":"Pocion de regeneracion"}',potion_contents={custom_color:16733146,custom_effects:[{id:"minecraft:regeneration",amplifier:0,duration:9600,show_particles:1b}]}] 1
@@ -14,7 +14,7 @@ execute if score @s Racha matches 12 run execute as @s[tag=!supervivencia-z] run
 execute if score @s Racha matches 12 run execute as @s[tag=supervivencia-z] run give @s splash_potion[minecraft:custom_name='{"italic":false,"text":"Pocion arrojadiza de Debilidad"}',minecraft:potion_contents={custom_color:3684106,custom_effects:[{id:"minecraft:weakness",amplifier:2,duration:400,show_particles:1b}]},max_stack_size=5] 5
 execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] tipped_arrow[custom_name='{"italic":false,"text":"Flecha de Levitacion"}',potion_contents={custom_color:14478583,custom_effects:[{id:"minecraft:levitation",amplifier:0,duration:100,show_particles:0b}]}] 64
 execute if score @s Racha matches 12 run give @s[tag=supervivencia-z] tipped_arrow[custom_name='{"italic":false,"text":"Flecha de Levitacion"}',potion_contents={custom_color:14478583,custom_effects:[{id:"minecraft:levitation",amplifier:4,duration:100,show_particles:0b}]}] 64
-execute if score @s Racha matches 30.. run give @s[tag=!survival-ejecutandose] pumpkin_pie 20
+execute if score @s Racha matches 30.. run give @s pumpkin_pie 20
 execute if score @s Racha matches 30.. run give @s enchanted_golden_apple 3
 execute if score @s Racha matches 30.. run give @s potion[potion_contents={potion:"minecraft:long_strength"}] 1
 execute if score @s Racha matches 30.. run give @s potion[custom_name='{"italic":false,"text":"Pocion de regeneracion"}',potion_contents={custom_color:16733146,custom_effects:[{id:"minecraft:regeneration",amplifier:0,duration:9600,show_particles:1b}]}] 1

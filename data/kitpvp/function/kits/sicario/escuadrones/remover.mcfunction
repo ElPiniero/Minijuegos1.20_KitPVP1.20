@@ -1,0 +1,1 @@
+$team remove s_$(sicario)

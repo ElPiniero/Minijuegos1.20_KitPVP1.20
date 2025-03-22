@@ -1,18 +1,40 @@
-execute if predicate kitpvp:10 run function kitpvp:solitario/hordas/oleada/mini_oleada
-execute as @e[type=#zombies,tag=!jefes_guia] at @s unless entity @p[distance=..36,gamemode=!spectator] run tag @s add ola
-tag @e[tag=Zombi-spawn,sort=random,limit=1,type=interaction] add oleada-origen
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~1 ~ ~
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~2 ~ ~
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~3 ~ ~
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~ ~ ~1
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~ ~ ~2
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~ ~ ~3
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~-1 ~ ~
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~-2 ~ ~
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~-3 ~ ~
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~ ~ ~-1
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~ ~ ~-2
-execute as @e[tag=ola,type=#zombies] at @s positioned as @e[tag=oleada-origen,limit=1,type=interaction] if predicate kitpvp:50 run tp @s ~ ~ ~-3
-execute at @e[tag=oleada-origen,limit=1,type=interaction] run summon vex ~ ~ ~ {Tags:["oleada-guia"],NoAI:1b,Silent:1b,active_effects:[{id:"invisibility",amplifier:0b,show_particles:0b,duration:-1},{id:"resistance",amplifier:4b,show_particles:0b,duration:-1}],PersistenceRequired:1b}
-execute as @e[tag=ola,type=#zombies] at @s run damage @s 1 generic by @e[tag=oleada-guia,limit=1,type=vex]
-tag @e[tag=oleada-origen,type=interaction] remove oleada-origen
+execute as @n[type=#zombies,tag=!lider-ola] run function kitpvp:cuerpo_del_juego/tag_muerte
+summon interaction ~ ~ ~ {Tags:["Vector_oleada","nuevo"]}
+summon endermite ~ ~ ~ {Tags:["Guia_oleada","nuevo"],Silent:1b,PersistenceRequired:1b}
+summon zombie_villager ~ ~ ~ {Team:"Zombis",Tags:["nuevo","lider-ola"],PersistenceRequired:1b,Health:520f,attributes:[{id:"minecraft:follow_range",base:500},{id:"minecraft:max_health",base:520},{id:"minecraft:movement_speed",base:0.42}]}
+
+effect give @n[type=endermite,tag=Guia_oleada,tag=nuevo] resistance infinite 4 true
+effect give @n[type=endermite,tag=Guia_oleada,tag=nuevo] weakness infinite 4 true
+effect give @n[type=endermite,tag=Guia_oleada,tag=nuevo] invisibility infinite 0 true
+ride @n[type=endermite,tag=Guia_oleada,tag=nuevo] mount @n[type=interaction,tag=Vector_oleada,tag=nuevo]
+ride @n[type=interaction,tag=Vector_oleada,tag=nuevo] mount @n[type=zombie_villager,tag=lider-ola,tag=nuevo]
+schedule function kitpvp:solitario/hordas/oleada/activar_oleada 1s
+scoreboard players set #zombis Conteo 0
+execute as @e[type=#zombies] run scoreboard players add #zombis Conteo 1
+execute if score #zombis Conteo matches 100.. run return fail
+
+execute positioned ~1 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~2 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~3 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~ ~ ~1 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~ ~ ~2 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~ ~ ~3 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~-1 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~-2 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~-3 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~ ~ ~-1 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~ ~ ~-2 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~ ~ ~-3 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~1 ~ ~1 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~2 ~ ~2 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~3 ~ ~3 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~1 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~1 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~1 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~ ~ ~2 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~ ~ ~2 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~ ~ ~2 run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~3 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~3 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~3 ~ ~ run function kitpvp:solitario/hordas/invocar_zombis
+execute positioned ~ ~ ~ run function kitpvp:solitario/hordas/invocar_zombis

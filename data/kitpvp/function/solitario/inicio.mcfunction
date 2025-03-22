@@ -1,4 +1,3 @@
-scoreboard players set #supervivencia-zombis ZombieBuff 1
 summon interaction -165 64 64 {Tags:["Zombi-spawn"]}
 summon interaction -137 63 86 {Tags:["Zombi-spawn"]}
 summon interaction 30 68 87 {Tags:["Zombi-spawn"]}
@@ -19,6 +18,7 @@ bossbar set lvl1 color white
 data merge storage supervivencia-zombis {Horda:"1"}
 data merge storage supervivencia-zombis {Iniciado:1b}
 scoreboard objectives setdisplay sidebar ZombieShop
+schedule function kitpvp:solitario/hordas/oleada/mini_ola_trigger 1s
 function kitpvp:solitario/hordas/horda_1
 function kitpvp:solitario/producto_tienda
 function kitpvp:cuerpo_del_juego/limpieza_items
@@ -28,6 +28,7 @@ team join Supervivientes @a
 tag @a[tag=!sesion_no_iniciada] add survival-ejecutandose
 tag @a[tag=!sesion_no_iniciada,tag=s-z-afavor] add Jugador_Vivo
 stopsound @a[tag=!sesion_no_iniciada] master music.creative
+stopsound @a[tag=!sesion_no_iniciada] master music.nether.soul_sand_valley
 execute as @a[tag=!sesion_no_iniciada] at @s if score @s Musica matches 1.. run function kitpvp:cuerpo_del_juego/musica/reiniciar_musica
 playsound block.respawn_anchor.set_spawn master @a[tag=!sesion_no_iniciada] ~ ~ ~ 100 0 1
 playsound entity.zombie.ambient master @a[tag=!sesion_no_iniciada] ~ ~ ~ 100 0.7 1

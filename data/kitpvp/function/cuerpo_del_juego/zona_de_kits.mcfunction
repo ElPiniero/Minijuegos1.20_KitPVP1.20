@@ -1,5 +1,6 @@
 gamemode adventure @s
 effect clear @s
+attribute @s attack_knockback base set 0
 execute on attacker if entity @s[tag=CaDeOv] run scoreboard players add @s Esp_CDO 1
 execute on attacker if entity @s[tag=CaDeNe] run scoreboard players add @s Esp_CDN 1
 execute on attacker if entity @s[tag=CaDeEn] run scoreboard players add @s Esp_CDE 1
@@ -25,15 +26,19 @@ team leave @s
 team join Supervivientes @a[tag=supervivencia-z]
 tp @s 14 231 140 -90 1
 tag @s add zona_de_kits
-execute as @a[tag=Sicario,tag=!sesion_no_iniciada,gamemode=!spectator,tag=!Jugador_Zombi] at @s run function kitpvp:kits/sicario/escuadrones/encontrar_escuadron
+execute as @s[tag=Sicario,tag=!sesion_no_iniciada,gamemode=!spectator,tag=!Jugador_Zombi] at @s run function kitpvp:kits/sicario/escuadrones/encontrar_escuadron
 effect give @s saturation infinite 10 true
 effect give @s resistance infinite 4 true
 scoreboard players reset @s ZombieShop
 scoreboard players reset @s Racha
 scoreboard players reset @s Atraido
 scoreboard players reset @s Atraido_Tiempo
+
+execute store result storage sicarios sicario.sicario int 1 run scoreboard players get @s INESoldado
+function kitpvp:kits/sicario/escuadrones/remover with storage sicarios sicario
+
 tag @s remove enganchado
-attribute @s generic.jump_strength base set .4
+attribute @s jump_strength base set .4
 scoreboard players reset @s Bajas
 scoreboard players set @s Conteo_Racha 2
 function kitpvp:kits/enderman/encontrar_perla
