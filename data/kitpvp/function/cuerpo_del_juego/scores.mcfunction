@@ -1,345 +1,3 @@
-forceload add 95 104
-forceload add 79 104
-forceload add 63 104
-forceload add 47 104
-forceload add 31 104
-forceload add 15 104
-forceload add -1 104
-forceload add -17 104
-forceload add -33 104
-forceload add -49 104
-forceload add -65 104
-forceload add -81 104
-forceload add -97 104
-forceload add -113 104
-forceload add -129 104
-forceload add -145 104
-forceload add -161 104
-forceload add -177 104
-
-forceload add 95 -159
-forceload add 79 -159
-forceload add 63 -159
-forceload add 47 -159
-forceload add 31 -159
-forceload add 15 -159
-forceload add -1 -159
-forceload add -17 -159
-forceload add -33 -159
-forceload add -49 -159
-forceload add -65 -159
-forceload add -81 -159
-forceload add -97 -159
-forceload add -113 -159
-forceload add -129 -159
-forceload add -145 -159
-forceload add -161 -159
-forceload add -177 -159
-
-forceload add 95 -143
-forceload add 79 -143
-forceload add 63 -143
-forceload add 47 -143
-forceload add 31 -143
-forceload add 15 -143
-forceload add -1 -143
-forceload add -17 -143
-forceload add -33 -143
-forceload add -49 -143
-forceload add -65 -143
-forceload add -81 -143
-forceload add -97 -143
-forceload add -113 -143
-forceload add -129 -143
-forceload add -145 -143
-forceload add -161 -143
-forceload add -177 -143
-
-forceload add 95 -127
-forceload add 79 -127
-forceload add 63 -127
-forceload add 47 -127
-forceload add 31 -127
-forceload add 15 -127
-forceload add -1 -127
-forceload add -17 -127
-forceload add -33 -127
-forceload add -49 -127
-forceload add -65 -127
-forceload add -81 -127
-forceload add -97 -127
-forceload add -113 -127
-forceload add -129 -127
-forceload add -145 -127
-forceload add -161 -127
-forceload add -177 -127
-
-forceload add 95 -111
-forceload add 79 -111
-forceload add 63 -111
-forceload add 47 -111
-forceload add 31 -111
-forceload add 15 -111
-forceload add -1 -111
-forceload add -17 -111
-forceload add -33 -111
-forceload add -49 -111
-forceload add -65 -111
-forceload add -81 -111
-forceload add -97 -111
-forceload add -113 -111
-forceload add -129 -111
-forceload add -145 -111
-forceload add -161 -111
-forceload add -177 -111
-
-forceload add 95 -95
-forceload add 79 -95
-forceload add 63 -95
-forceload add 47 -95
-forceload add 31 -95
-forceload add 15 -95
-forceload add -1 -95
-forceload add -17 -95
-forceload add -33 -95
-forceload add -49 -95
-forceload add -65 -95
-forceload add -81 -95
-forceload add -97 -95
-forceload add -113 -95
-forceload add -129 -95
-forceload add -145 -95
-forceload add -161 -95
-forceload add -177 -95
-
-forceload add 95 -79
-forceload add 79 -79
-forceload add 63 -79
-forceload add 47 -79
-forceload add 31 -79
-forceload add 15 -79
-forceload add -1 -79
-forceload add -17 -79
-forceload add -33 -79
-forceload add -49 -79
-forceload add -65 -79
-forceload add -81 -79
-forceload add -97 -79
-forceload add -113 -79
-forceload add -129 -79
-forceload add -145 -79
-forceload add -161 -79
-forceload add -177 -79
-
-forceload add 95 -63
-forceload add 79 -63
-forceload add 63 -63
-forceload add 47 -63
-forceload add 31 -63
-forceload add 15 -63
-forceload add -1 -63
-forceload add -17 -63
-forceload add -33 -63
-forceload add -49 -63
-forceload add -65 -63
-forceload add -81 -63
-forceload add -97 -63
-forceload add -113 -63
-forceload add -129 -63
-forceload add -145 -63
-forceload add -161 -63
-forceload add -177 -63
-
-forceload add 95 -47
-forceload add 79 -47
-forceload add 63 -47
-forceload add 47 -47
-forceload add 31 -47
-forceload add 15 -47
-forceload add -1 -47
-forceload add -17 -47
-forceload add -33 -47
-forceload add -49 -47
-forceload add -65 -47
-forceload add -81 -47
-forceload add -97 -47
-forceload add -113 -47
-forceload add -129 -47
-forceload add -145 -47
-forceload add -161 -47
-forceload add -177 -47
-
-forceload add 95 -31
-forceload add 79 -31
-forceload add 63 -31
-forceload add 47 -31
-forceload add 31 -31
-forceload add 15 -31
-forceload add -1 -31
-forceload add -17 -31
-forceload add -33 -31
-forceload add -49 -31
-forceload add -65 -31
-forceload add -81 -31
-forceload add -97 -31
-forceload add -113 -31
-forceload add -129 -31
-forceload add -145 -31
-forceload add -161 -31
-forceload add -177 -31
-
-forceload add 95 -15
-forceload add 79 -15
-forceload add 63 -15
-forceload add 47 -15
-forceload add 31 -15
-forceload add 15 -15
-forceload add -1 -15
-forceload add -17 -15
-forceload add -33 -15
-forceload add -49 -15
-forceload add -65 -15
-forceload add -81 -15
-forceload add -97 -15
-forceload add -113 -15
-forceload add -129 -15
-forceload add -145 -15
-forceload add -161 -15
-forceload add -177 -15
-
-forceload add 95 1
-forceload add 79 1
-forceload add 63 1
-forceload add 47 1
-forceload add 31 1
-forceload add 15 1
-forceload add -1 1
-forceload add -17 1
-forceload add -33 1
-forceload add -49 1
-forceload add -65 1
-forceload add -81 1
-forceload add -97 1
-forceload add -113 1
-forceload add -129 1
-forceload add -145 1
-forceload add -161 1
-forceload add -177 1
-
-forceload add 95 17
-forceload add 79 17
-forceload add 63 17
-forceload add 47 17
-forceload add 31 17
-forceload add 15 17
-forceload add -1 17
-forceload add -17 17
-forceload add -33 17
-forceload add -49 17
-forceload add -65 17
-forceload add -81 17
-forceload add -97 17
-forceload add -113 17
-forceload add -129 17
-forceload add -145 17
-forceload add -161 17
-forceload add -177 17
-
-forceload add 95 33
-forceload add 79 33
-forceload add 63 33
-forceload add 47 33
-forceload add 31 33
-forceload add 15 33
-forceload add -1 33
-forceload add -17 33
-forceload add -33 33
-forceload add -49 33
-forceload add -65 33
-forceload add -81 33
-forceload add -97 33
-forceload add -113 33
-forceload add -129 33
-forceload add -145 33
-forceload add -161 33
-forceload add -177 33
-
-forceload add 95 49
-forceload add 79 49
-forceload add 63 49
-forceload add 47 49
-forceload add 31 49
-forceload add 15 49
-forceload add -1 49
-forceload add -17 49
-forceload add -33 49
-forceload add -49 49
-forceload add -65 49
-forceload add -81 49
-forceload add -97 49
-forceload add -113 49
-forceload add -129 49
-forceload add -145 49
-forceload add -161 49
-forceload add -177 49
-
-forceload add 95 65
-forceload add 79 65
-forceload add 63 65
-forceload add 47 65
-forceload add 31 65
-forceload add 15 65
-forceload add -1 65
-forceload add -17 65
-forceload add -33 65
-forceload add -49 65
-forceload add -65 65
-forceload add -81 65
-forceload add -97 65
-forceload add -113 65
-forceload add -129 65
-forceload add -145 65
-forceload add -161 65
-forceload add -177 65
-
-forceload add 95 81
-forceload add 79 81
-forceload add 63 81
-forceload add 47 81
-forceload add 31 81
-forceload add 15 81
-forceload add -1 81
-forceload add -17 81
-forceload add -33 81
-forceload add -49 81
-forceload add -65 81
-forceload add -81 81
-forceload add -97 81
-forceload add -113 81
-forceload add -129 81
-forceload add -145 81
-forceload add -161 81
-forceload add -177 81
-
-forceload add 95 97
-forceload add 79 97
-forceload add 63 97
-forceload add 47 97
-forceload add 31 97
-forceload add 15 97
-forceload add -1 97
-forceload add -17 97
-forceload add -33 97
-forceload add -49 97
-forceload add -65 97
-forceload add -81 97
-forceload add -97 97
-forceload add -113 97
-forceload add -129 97
-forceload add -145 97
-forceload add -161 97
-forceload add -177 97
-
 scoreboard players reset #jugadores Conteo
 scoreboard objectives add kitpvp-zona-de-kits trigger
 scoreboard objectives add kitpvp-reiniciar-musica trigger
@@ -417,67 +75,6 @@ scoreboard objectives add Mejores_Diamantes dummy
 scoreboard objectives add Carta used:written_book
 scoreboard objectives add Salto custom:jump
 scoreboard objectives add Escopeta-cooldown dummy
-
-scoreboard objectives add LOGRO_gente_sofisticada dummy
-scoreboard objectives add LOGRO_primer_kit dummy
-scoreboard objectives add LOGRO_200bm dummy
-scoreboard objectives add LOGRO_20_bajas dummy
-scoreboard objectives add LOGRO_2_bajas dummy
-scoreboard objectives add LOGRO_42_bajas dummy
-scoreboard objectives add LOGRO_aguafiestas dummy
-scoreboard objectives add LOGRO_y_todavia_no_me_muero dummy
-scoreboard objectives add LOGRO_empoderio_aviario dummy
-scoreboard objectives add LOGRO_en_toda_la_jeta dummy
-scoreboard objectives add LOGRO_especialista_1-8 dummy
-scoreboard objectives add LOGRO_especialista_cde dummy
-scoreboard objectives add LOGRO_especialista_cdn dummy
-scoreboard objectives add LOGRO_especialista_cdo dummy
-scoreboard objectives add LOGRO_especialista_creeper dummy
-scoreboard objectives add LOGRO_especialista_doctor dummy
-scoreboard objectives add LOGRO_especialista_elite dummy
-scoreboard objectives add LOGRO_especialista_enderman dummy
-scoreboard objectives add LOGRO_especialista_faraon dummy
-scoreboard objectives add LOGRO_especialista_militar dummy
-scoreboard objectives add LOGRO_especialista_nexo dummy
-scoreboard objectives add LOGRO_especialista_poseidon dummy
-scoreboard objectives add LOGRO_especialista_quetzal dummy
-scoreboard objectives add LOGRO_especialista_sicario dummy
-scoreboard objectives add LOGRO_especialista_stray dummy
-scoreboard objectives add LOGRO_especialista_tecnico dummy
-scoreboard objectives add LOGRO_especialista_zorro dummy
-scoreboard objectives add LOGRO_hola_adios dummy
-scoreboard objectives add LOGRO_victorias_por_30_segundos dummy
-scoreboard objectives add LOGRO_maldiciones dummy
-scoreboard objectives add LOGRO_nexo_triples dummy
-scoreboard objectives add LOGRO_los_buenos_tiros dummy
-scoreboard objectives add LOGRO_ordene_emperador dummy
-scoreboard objectives add LOGRO_pa_donde_lo_llevo dummy
-scoreboard objectives add LOGRO_polimata dummy
-scoreboard objectives add LOGRO_racha_6_cde dummy
-scoreboard objectives add LOGRO_racha_6_cdn dummy
-scoreboard objectives add LOGRO_racha_6_cdo dummy
-scoreboard objectives add LOGRO_racha_6_doctor dummy
-scoreboard objectives add LOGRO_racha_6_tecnico dummy
-scoreboard objectives add LOGRO_racha_picosas dummy
-scoreboard objectives add LOGRO_ofensiva_post-escudo dummy
-scoreboard objectives add LOGRO_te_vas_conmigo dummy
-scoreboard objectives add LOGRO_abranse dummy
-scoreboard objectives add LOGRO_austeridad dummy
-scoreboard objectives add LOGRO_cuarta_horda dummy
-scoreboard objectives add LOGRO_juego_completo dummy
-scoreboard objectives add LOGRO_quinta_horda dummy
-scoreboard objectives add LOGRO_segunda_horda dummy
-scoreboard objectives add LOGRO_tercera_horda dummy
-scoreboard objectives add LOGRO_zombis dummy
-scoreboard objectives add LOGRO_liquidez dummy
-scoreboard objectives add LOGRO_buen_sueldo dummy
-scoreboard objectives add LOGRO_carta dummy
-scoreboard objectives add LOGRO_fortaleza dummy
-scoreboard objectives add LOGRO_horda dummy
-scoreboard objectives add LOGRO_me_siento_chido dummy
-scoreboard objectives add LOGRO_cometorta dummy
-scoreboard objectives add LOGRO_especialista_neon dummy
-scoreboard objectives add LOGRO_austeridad_completa dummy
 
 scoreboard objectives add Esp_1-8 dummy
 scoreboard objectives add Esp_Doctor dummy
@@ -582,22 +179,6 @@ summon interaction 23 234 137 {Tags:["ZRR"],UUID:[I;123534,7556453,64525264,3434
 summon interaction 23 234 140 {Tags:["SCR"],UUID:[I;123234,75656453,6455264,34364544]}
 summon interaction 11 234 149 {Tags:["STY"],UUID:[I;1232534,756453,6425264,34364544]}
 summon interaction 23 234 143 {Tags:["NEON"],UUID:[I;1232534,7565453,64525264,34364544]}
-summon interaction -143 74 24 {Tags:["Spawn"],UUID:[I;122534,7566453,64525264,34364544]} 
-summon interaction -154 67 -4 {Tags:["Spawn"],UUID:[I;123534,75656453,645264,3436444]} 
-summon interaction -129 85 -29 {Tags:["Spawn"],UUID:[I;132534,7565453,6525264,3464544]} 
-summon interaction -146 77 -49 {Tags:["Spawn"],UUID:[I;123534,7565643,6452264,34364544]} 
-summon interaction -59 84 -125 {Tags:["Spawn"],UUID:[I;12534,7566453,6425264,34364544]} 
-summon interaction -105 84 -125 {Tags:["Spawn"],UUID:[I;122534,75656453,6452564,34364544]} 
-summon interaction -45 87 -116 {Tags:["Spawn"],UUID:[I;123534,7565453,6452564,34364544]} 
-summon interaction -9 84 -116 {Tags:["Spawn"],UUID:[I;1232534,75656453,6455264,3434544]} 
-summon interaction 27 74 8 {Tags:["Spawn"],UUID:[I;1232534,75656453,6452264,34364544]} 
-summon interaction 55 74 -57 {Tags:["Spawn"],UUID:[I;232534,756453,64525264,34364544]} 
-summon interaction -10 82 77 {Tags:["Spawn"],UUID:[I;122534,756563,625264,64544]} 
-summon interaction -103 82 77 {Tags:["Spawn"],UUID:[I;123534,7565643,645264,34364544]} 
-summon interaction -56 65 -44 {Tags:["Spawn"],UUID:[I;1232534,7556453,645254,344544]} 
-summon interaction -37 65 -24 {Tags:["Spawn"],UUID:[I;123534,756453,625264,364544]} 
-summon interaction -57 65 -5 {Tags:["Spawn"],UUID:[I;123534,756453,645264,34364544]} 
-summon interaction -76 65 -25 {Tags:["Spawn"],UUID:[I;123534,756453,6455264,34364544]}
 
 summon text_display 18.5 232.0 140.5 {glow_color_override: -1, shadow: 0b, line_width: 200, text_opacity: 0, Invulnerable: 0b, PortalCooldown: 0, interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, see_through: 0b, text: '{"text":"C","extra":[{"text":"A","color":"#4AF84A"},{"text":"B","color":"#56F256"},{"text":"A","color":"#61EC61"},{"text":"L","color":"#6DE66D"},{"text":"L","color":"#78E078"},{"text":"E","color":"#84DB84"},{"text":"R","color":"#8FD58F"},{"text":"O ","color":"#9BCF9B"},{"text":"D","color":"#A6C9A6"},{"text":"E","color":"#B2C3B2"},{"text":"L","color":"gray"}],"clickEvent":{"action":"run_command","value":"/function kitpvp:kits/caballero_del_overworld/descripcion"},"color":"green","bold":true}', UUID: [I; -677874119, -609730278, -1122535444, -913470280], height: 0.0f, Motion: [0.0d, 0.0d, 0.0d], shadow_radius: 0.0f, Air: 300s, OnGround: 0b, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, 0.6f, -0.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 1.0f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [90.0f, 0.0f], default_background: 0b, Pos: [18.5d, 232.0d, 140.5d], background: 1073741824, Fire: 0s, width: 0.0f, view_range: 1.0f, alignment: "center",UUID:[I;82541557,924562,24684279,236346898]}
 summon text_display 18.5 232.0 140.5 {glow_color_override: -1, shadow: 0b, line_width: 200, text_opacity: 0, Invulnerable: 0b, PortalCooldown: 0, interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, see_through: 0b, text: '{"text":"O","extra":[{"text":"V","color":"#97D1D1","bold":true},{"text":"E","color":"#8BD7D7","bold":true},{"text":"R","color":"#7EDEDE","bold":true},{"text":"W","color":"#71E4E4","bold":true},{"text":"O","color":"#65EAEA","bold":true},{"text":"R","color":"#58F1F1","bold":true},{"text":"L","color":"#4BF7F7","bold":true},{"text":"D","color":"aqua","bold":true}],"color":"#A4CACA","bold":true}', UUID: [I; 870594143, -444511709, -2006973227, -1096484910], height: 0.0f, Motion: [0.0d, 0.0d, 0.0d], shadow_radius: 0.0f, Air: 300s, OnGround: 0b, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, 0.35f, -0.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 1.0f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [90.0f, 0.0f], default_background: 0b, Pos: [18.5d, 232.0d, 140.5d], background: 1073741824, Fire: 0s, width: 0.0f, view_range: 1.0f, alignment: "center",UUID:[I;82541557,924562,24684279,23634689]}
@@ -647,26 +228,89 @@ summon text_display 20 236 143 {Rotation: [90f, 0.0f],alignment:center,text:'[{"
 summon interaction 21 236 143 {Tags:["neon","descripcion"],response:1b,width:2f,height:1f,UUID:[I;2,3,4,181385]}
 
 summon text_display 14 239 140 {text:'{"text":"Zona de kits","color":"light_purple","italic":true,"font":"uniform","bold":true}',billboard:center,alignment:center,transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0f, 0f, 0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [10.0f, 10.0f, 0.0f]},UUID:[I;825417,9262,246279,23634898]}
-summon text_display -4 236 140 {Rotation:[-90f,0f],text:'{"text":"Configuración","color":"light_purple","italic":true,"font":"uniform","bold":true}',billboard:fixed,alignment:center,transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0f, 0f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [4.0f, 4.0f, 0.0f]},UUID:[I;1,924562,24684279,236346898]}
+summon text_display 0 237 140 {text:'{"text":"Configuración","color":"light_purple","italic":true,"font":"uniform","bold":true}',billboard:center,alignment:center,transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0f, 0f, 0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [5.0f, 5.0f, 0.0f]},UUID:[I;8417,9262,246279,247]}
 
-summon item_display -4 235 143 {Tags:["modo-eliminacion"],Motion: [0.0d, 0.0d, 0.0d], glow_color_override: 655104, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0="}], id: [I; -1679339935, -1900460474, -1502236591, 1080088365]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, -0.37f, -0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.5f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 90.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-3.5d, 235.0d, 142.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 570414625, -517193338, -1576374045, -1492096122], height: 0.0f,UUID:[I;825557,924562,24684279,236346898]}
+summon text_display -4 236 140 {Rotation:[-90f,0f],text:'{"text":"Modo","color":"white","italic":true,"font":"uniform","bold":true}',billboard:fixed,alignment:center,transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0f, 0f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [4.0f, 4.0f, 0.0f]},UUID:[I;1,924562,24684279,236346898]}
+summon text_display 0 236.000 136 {Rotation:[0f,0f],text:'{"text":"Mapa","color":"white","italic":true,"font":"uniform","bold":true}',billboard:fixed,alignment:center,transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0f, 0f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [4.0f, 4.0f, 0.0f]},UUID:[I;1,9242,244279,23698]}
+
+summon item_display -4 235 143 {Tags:["modo-eliminacion"],Motion: [0.0d, 0.0d, 0.0d], glow_color_override: 655104, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0="}], id: [I; -1679339935, -1900460474, -1502236591, 1080088365]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, -0.37f, -0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.5f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 90.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-1.5d, 235.0d, 142.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 570414625, -517193338, -1576374045, -1492096122], height: 0.0f,UUID:[I;825557,924562,24684279,236346898]}
 summon interaction -3.75 235.25 143.50 {Motion: [0.0d, 0.0d, 0.0d], Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [0.0f, 0.0f], FallDistance: 0.0f, response: 1b, Fire: 0s, width: 0.5f, Tags: ["modo-eliminacion"], height: 0.5f,UUID:[I;825417,66666,246279,23634898]}
-summon item_display -4 234 143 {Tags:["modo-arena"],Motion: [0.0d, 0.0d, 0.0d], glow_color_override: 655104, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0="}], id: [I; -1679339935, -1900460474, -1502236591, 1080088365]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, -0.37f, -0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.5f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 90.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-3.5d, 235.0d, 142.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 570414625, -517193338, -157674045, -1492096122], height: 0.0f,UUID:[I;82541557,1,24684279,236346898]}
+summon item_display -4 234 143 {Tags:["modo-arena"],Motion: [0.0d, 0.0d, 0.0d], glow_color_override: 655104, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0="}], id: [I; -1679339935, -1900460474, -1502236591, 1080088365]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, -0.37f, -0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.5f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 90.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-1.5d, 235.0d, 142.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 570414625, -517193338, -157674045, -1492096122], height: 0.0f,UUID:[I;82541557,1,24684279,236346898]}
 summon interaction -3.75 234.25 143.50 {Motion: [0.0d, 0.0d, 0.0d], Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [0.0f, 0.0f], FallDistance: 0.0f, response: 1b, Fire: 0s, width: 0.5f, Tags: ["modo-arena"], height: 0.5f,UUID:[I;825417,9262,7,23634898]}
-summon item_display -4 233 143 {Tags:["modo-zombis"],Motion: [0.0d, 0.0d, 0.0d], glow_color_override: 655104, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0="}], id: [I; -1679339935, -1900460474, -1502236591, 1080088365]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, -0.37f, -0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.5f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 90.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-3.5d, 235.0d, 142.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 570414625, -517193338, -1576374045, -149209622], height: 0.0f,UUID:[I;82541557,2,24684279,236346898]}
+summon item_display -4 233 143 {Tags:["modo-zombis"],Motion: [0.0d, 0.0d, 0.0d], glow_color_override: 655104, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0="}], id: [I; -1679339935, -1900460474, -1502236591, 1080088365]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, -0.37f, -0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.5f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 90.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-1.5d, 235.0d, 142.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 570414625, -517193338, -1576374045, -149209622], height: 0.0f,UUID:[I;82541557,2,24684279,236346898]}
 summon interaction -3.75 233.25 143.50 {Motion: [0.0d, 0.0d, 0.0d], Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [0.0f, 0.0f], FallDistance: 0.0f, response: 1b, Fire: 0s, width: 0.5f, Tags: ["modo-zombis"], height: 0.5f,UUID:[I;8,9262,246279,23634898]}
 
-summon text_display -4 235 141 {Rotation:[-90f,0f],alignment:left,text:'[{"text":""},{"text": "Modo ","color": "white"},{"text":"E","bold":true,"color":"gold"},{"text":"L","bold":true,"color":"#d6a541"},{"text":"I","bold":true,"color":"#d3a84f"},{"text":"M","bold":true,"color":"#d0ab5d"},{"text":"I","bold":true,"color":"#cead6b"},{"text":"N","bold":true,"color":"#cbb079"},{"text":"A","bold":true,"color":"#c8b386"},{"text":"C","bold":true,"color":"#c6b594"},{"text":"I","bold":true,"color":"#c3b8a2"},{"text":"Ó","bold":true,"color":"#c0bbb0"},{"text":"N","bold":true,"color":"gray"}]',transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [.4f, .3f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.5f, 1.5f, 0.0f]},UUID:[I;825457,9262,246879,9999]}
-summon text_display -4 234 141 {Rotation:[-90f,0f],alignment:left,text:'[{"text":""},{"text": "Modo ","color": "white"},{"text":"A","bold":true,"color":"gold"},{"text":"R","bold":true,"color":"#d2a956"},{"text":"E","bold":true,"color":"#cbb079"},{"text":"N","bold":true,"color":"#c4b79b"},{"text":"A","bold":true,"color":"gray"}]',transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [-.28f, .3f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.5f, 1.5f, 0.0f]},UUID:[I;82541557,924562,24684279,888]}
-summon text_display -4 233 141 {Rotation:[-90f,0f],alignment:left,text:'[{"text":""},{"text": "Modo ","color": "white"},{"text":"S","bold":true,"color":"dark_red"},{"text":"U","bold":true,"color":"#b60303"},{"text":"P","bold":true,"color":"#af0707"},{"text":"E","bold":true,"color":"#a80a0a"},{"text":"R","bold":true,"color":"#a10e0e"},{"text":"V","bold":true,"color":"#9a1111"},{"text":"I","bold":true,"color":"#931515"},{"text":"V","bold":true,"color":"#8c1818"},{"text":"E","bold":true,"color":"#851c1c"},{"text":"N","bold":true,"color":"#7e1f1f"},{"text":"C","bold":true,"color":"#772323"},{"text":"I","bold":true,"color":"#702626"},{"text":"A ","bold":true,"color":"#692a2a"},{"text":"Z","bold":true,"color":"#622d2d"},{"text":"O","bold":true,"color":"#5b3131"},{"text":"M","bold":true,"color":"#543434"},{"text":"B","bold":true,"color":"#4d3838"},{"text":"I","bold":true,"color":"#463b3b"},{"text":"S","bold":true,"color":"dark_gray"}]',transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [1.35f, .3f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.4f, 1.5f, 0.0f]},UUID:[I;8244447,924562,24684279,236346898]}
+summon text_display -4 235 142.000 {Rotation:[-90f,0f],alignment:left,text:'[{"text":""},{"text":"E","bold":true,"color":"gold"},{"text":"L","bold":true,"color":"#d6a541"},{"text":"I","bold":true,"color":"#d3a84f"},{"text":"M","bold":true,"color":"#d0ab5d"},{"text":"I","bold":true,"color":"#cead6b"},{"text":"N","bold":true,"color":"#cbb079"},{"text":"A","bold":true,"color":"#c8b386"},{"text":"C","bold":true,"color":"#c6b594"},{"text":"I","bold":true,"color":"#c3b8a2"},{"text":"Ó","bold":true,"color":"#c0bbb0"},{"text":"N","bold":true,"color":"gray"}]',transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [.4f, .3f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.5f, 1.5f, 0.0f]},UUID:[I;825457,9262,246879,9999]}
+summon text_display -4 234 142.000 {Rotation:[-90f,0f],alignment:left,text:'[{"text":""},{"text":"A","bold":true,"color":"gold"},{"text":"R","bold":true,"color":"#d2a956"},{"text":"E","bold":true,"color":"#cbb079"},{"text":"N","bold":true,"color":"#c4b79b"},{"text":"A","bold":true,"color":"gray"}]',transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [-.28f, .3f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.5f, 1.5f, 0.0f]},UUID:[I;82541557,924562,24684279,888]}
+summon text_display -4 233 142.000 {Rotation:[-90f,0f],alignment:left,text:'[{"text":""},{"text":"S","bold":true,"color":"dark_red"},{"text":"U","bold":true,"color":"#b60303"},{"text":"P","bold":true,"color":"#af0707"},{"text":"E","bold":true,"color":"#a80a0a"},{"text":"R","bold":true,"color":"#a10e0e"},{"text":"V","bold":true,"color":"#9a1111"},{"text":"I","bold":true,"color":"#931515"},{"text":"V","bold":true,"color":"#8c1818"},{"text":"E","bold":true,"color":"#851c1c"},{"text":"N","bold":true,"color":"#7e1f1f"},{"text":"C","bold":true,"color":"#772323"},{"text":"I","bold":true,"color":"#702626"},{"text":"A ","bold":true,"color":"#692a2a"},{"text":"Z","bold":true,"color":"#622d2d"},{"text":"O","bold":true,"color":"#5b3131"},{"text":"M","bold":true,"color":"#543434"},{"text":"B","bold":true,"color":"#4d3838"},{"text":"I","bold":true,"color":"#463b3b"},{"text":"S","bold":true,"color":"dark_gray"}]',transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [1.35f, .3f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.4f, 1.5f, 0.0f]},UUID:[I;8244447,924562,24684279,236346898]}
 
-summon item_display -4 235 138 {Motion: [0.0d, 0.0d, 0.0d], glow_color_override: -1, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM4ZWExZjUxZjI1M2ZmNTE0MmNhMTFhZTQ1MTkzYTRhZDhjM2FiNWU5YzZlZWM4YmE3YTRmY2I3YmFjNDAifX19"}], id: [I; -1467980511, 420563077, -2018747803, 1968399586]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [-0.365f, 0.865f, -0.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.5f, 0.5f, 0.5f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 0.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-3.5d, 235.0d, 137.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 1779249464, 2001421820, -1299492566, 1857922208], height: 0.0f,UUID:[I;82541557,65,24684279,236346898]}
-summon item_display -4 234 139 {Motion: [0.0d, 0.0d, 0.0d], glow_color_override: -1, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM4ZWExZjUxZjI1M2ZmNTE0MmNhMTFhZTQ1MTkzYTRhZDhjM2FiNWU5YzZlZWM4YmE3YTRmY2I3YmFjNDAifX19"}], id: [I; -1467980511, 420563077, -2018747803, 1968399586]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [-0.730f, 0.865f, -0.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.5f, 0.5f, 0.5f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 0.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-3.5d, 235.0d, 137.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 1779249464, 2001421820, -1299492566, 185792228], height: 0.0f,UUID:[I;87,924562,24684279,236346898]}
-summon item_display -4 233 137 {Motion: [0.0d, 0.0d, 0.0d], glow_color_override: -1, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM4ZWExZjUxZjI1M2ZmNTE0MmNhMTFhZTQ1MTkzYTRhZDhjM2FiNWU5YzZlZWM4YmE3YTRmY2I3YmFjNDAifX19"}], id: [I; -1467980511, 420563077, -2018747803, 1968399586]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.51f, 0.865f, -0.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.5f, 0.5f, 0.5f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 0.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-3.5d, 233.0d, 137.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 1779249464, 2001421820, -1299492566, 18579228], height: 0.0f,UUID:[I;82541557,924562,3,236346898]}
+summon item_display -4 235 139.5 {Motion: [0.0d, 0.0d, 0.0d], glow_color_override: -1, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM4ZWExZjUxZjI1M2ZmNTE0MmNhMTFhZTQ1MTkzYTRhZDhjM2FiNWU5YzZlZWM4YmE3YTRmY2I3YmFjNDAifX19"}], id: [I; -1467980511, 420563077, -2018747803, 1968399586]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [-0.365f, 0.865f, -0.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.5f, 0.5f, 0.5f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 0.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-1.5d, 235.0d, 137.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 1779249464, 2001421820, -1299492566, 1857922208], height: 0.0f,UUID:[I;82541557,65,24684279,236346898]}
+summon item_display -4 234 140.5 {Motion: [0.0d, 0.0d, 0.0d], glow_color_override: -1, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM4ZWExZjUxZjI1M2ZmNTE0MmNhMTFhZTQ1MTkzYTRhZDhjM2FiNWU5YzZlZWM4YmE3YTRmY2I3YmFjNDAifX19"}], id: [I; -1467980511, 420563077, -2018747803, 1968399586]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [-0.730f, 0.865f, -0.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.5f, 0.5f, 0.5f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 0.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-1.5d, 235.0d, 137.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 1779249464, 2001421820, -1299492566, 185792228], height: 0.0f,UUID:[I;87,924562,24684279,236346898]}
+summon item_display -4 233 138.5 {Motion: [0.0d, 0.0d, 0.0d], glow_color_override: -1, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM4ZWExZjUxZjI1M2ZmNTE0MmNhMTFhZTQ1MTkzYTRhZDhjM2FiNWU5YzZlZWM4YmE3YTRmY2I3YmFjNDAifX19"}], id: [I; -1467980511, 420563077, -2018747803, 1968399586]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.51f, 0.865f, -0.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.5f, 0.5f, 0.5f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 0.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-1.5d, 233.0d, 137.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 1779249464, 2001421820, -1299492566, 18579228], height: 0.0f,UUID:[I;82541557,924562,3,236346898]}
 
-summon interaction -3.9 235.73 138.85 {Tags:["info-eliminacion"],width:.25,height:.25,response:1b,UUID:[I;82541557,435454545,69,236346898]}
-summon interaction -3.9 234.73 140.22 {Tags:["info-arena"],width:.25,height:.25,response:1b,UUID:[I;82541,92452,2777,236346898]}
-summon interaction -3.9 233.76 136.99 {Tags:["info-zombis"],width:.25,height:.25,response:1b,UUID:[I;82541557,924562,24684279,8787878]}
+summon interaction -3.9 235.73 139.85 {Tags:["info-eliminacion"],width:.25,height:.25,response:1b,UUID:[I;82541557,435454545,69,236346898]}
+summon interaction -3.9 234.73 141.23 {Tags:["info-arena"],width:.25,height:.25,response:1b,UUID:[I;82541,92452,2777,236346898]}
+summon interaction -3.9 233.76 138.000 {Tags:["info-zombis"],width:.25,height:.25,response:1b,UUID:[I;82541557,924562,24684279,8787878]}
+
+summon text_display 0.000 235 136.5 {Rotation:[0f,0f],alignment:left,text:'[{"text":""},{"text":"P","bold":true,"color":"gray"},{"text":"U","bold":true,"color":"#caa4a4"},{"text":"E","bold":true,"color":"#d78b8b"},{"text":"B","bold":true,"color":"#e47171"},{"text":"L","bold":true,"color":"#f15858"},{"text":"O","bold":true,"color":"red"}]',transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0f, .3f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.5f, 1.5f, 0.0f]},UUID:[I;2721,9262,246879,9999]}
+summon text_display 0.000 234 136.5 {Rotation:[0f,0f],alignment:left,text:'[{"text":""},{"text":"A","bold":true,"color":"dark_green"},{"text":"L","bold":true,"color":"#05b205"},{"text":"D","bold":true,"color":"#0ba60b"},{"text":"E","bold":true,"color":"#119b11"},{"text":"A ","bold":true,"color":"#168f16"},{"text":"P","bold":true,"color":"#1c841c"},{"text":"O","bold":true,"color":"#227822"},{"text":"D","bold":true,"color":"#286d28"},{"text":"R","bold":true,"color":"#2d612d"},{"text":"I","bold":true,"color":"#335633"},{"text":"D","bold":true,"color":"#394a39"},{"text":"A","bold":true,"color":"dark_gray"}]',transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [.85f, .3f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.5f, 1.5f, 0.0f]},UUID:[I;82541557,2721,24684279,888]}
+summon text_display 0.000 233 136.5 {Rotation:[0f,0f],alignment:left,text:'[{"text":""},{"text":"H","bold":true,"color":"dark_aqua"},{"text":"A","bold":true,"color":"#1cc5c5"},{"text":"B","bold":true,"color":"#38cccc"},{"text":"I","bold":true,"color":"#55d3d3"},{"text":"T","bold":true,"color":"#71dada"},{"text":"A","bold":true,"color":"#8de2e2"},{"text":"C","bold":true,"color":"#aae9e9"},{"text":"I","bold":true,"color":"#c6f0f0"},{"text":"Ó","bold":true,"color":"#e2f7f7"},{"text":"N","bold":true,"color":"white"}]',transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [.35f, .3f, -.499f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.4f, 1.5f, 0.0f]},UUID:[I;8244447,924562,248889,11]}
+summon item_display -1.5 235 136.5 {Tags:["mapa-pueblo"],Motion: [0.0d, 0.0d, 0.0d], glow_color_override: 655104, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0="}], id: [I; -1679339935, -1900460474, -1502236591, 1080088365]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, -0.37f, -0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.5f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [0.0f, 90.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-1.5d, 235.0d, 142.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 570414625, -517193338, -1576374045, -1492096122], height: 0.0f,UUID:[I;82555,924562,22721279,23777898]}
+summon interaction -1.5 235.25 136.000 {Motion: [0.0d, 0.0d, 0.0d], Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [0.0f, 0.0f], FallDistance: 0.0f, response: 1b, Fire: 0s, width: 0.5f, Tags: ["mapa-pueblo"], height: 0.5f,UUID:[I;8272117,66666,27219,23634898]}
+summon item_display -1.5 234 136.5 {Tags:["mapa-aldea"],Motion: [0.0d, 0.0d, 0.0d], glow_color_override: 655104, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0="}], id: [I; -1679339935, -1900460474, -1502236591, 1080088365]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, -0.37f, -0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.5f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [0.0f, 90.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-1.5d, 235.0d, 142.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 570414625, -517193338, -157674045, -1492096122], height: 0.0f,UUID:[I;82721557,2721,2468279,236346898]}
+summon interaction -1.5 234.25 136.000 {Motion: [0.0d, 0.0d, 0.0d], Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [0.0f, 0.0f], FallDistance: 0.0f, response: 1b, Fire: 0s, width: 0.5f, Tags: ["mapa-aldea"], height: 0.5f,UUID:[I;825417,2721,7,23634898]}
+summon item_display -1.5 233 136.5 {Tags:["mapa-habitacion"],Motion: [0.0d, 0.0d, 0.0d], glow_color_override: 655104, item: {components: {"minecraft:profile": {properties: [{name: "textures", value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0="}], id: [I; -1679339935, -1900460474, -1502236591, 1080088365]}}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, -0.37f, -0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.5f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [0.0f, 90.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-1.5d, 235.0d, 142.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 570414625, -517193338, -1576374045, -149222], height: 0.0f,UUID:[I;825557,2,24684279,232721898]}
+summon interaction -1.5 233.25 136.000 {Motion: [0.0d, 0.0d, 0.0d], Invulnerable: 0b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [0.0f, 0.0f], FallDistance: 0.0f, response: 1b, Fire: 0s, width: 0.5f, Tags: ["mapa-habitacion"], height: 0.5f,UUID:[I;8,9262,246279,22721]}
+
+summon item_display 7 236 145 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;14313,653434,284723,6453]}
+summon item_display 7 235 145 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,65434,284723,6453]}
+summon item_display 14 231 140 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,653434,24723,6453]}
+summon item_display 7 236 145 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,653434,284723,653]}
+summon item_display 7 236 135 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;1813,653434,284723,6453]}
+summon item_display 7 235 135 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,6434,284723,6453]}
+summon item_display 9 236 147 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,653434,723,6453]}
+summon item_display 11 234 149 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,653434,284723,53]}
+summon item_display 14 234 149 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;14313,65434,284723,6453]}
+summon item_display 17 234 149 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,65334,28473,6453]}
+summon item_display 23 234 143 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;14813,63434,28473,6453]}
+summon item_display 23 234 140 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,65434,4723,6453]}
+summon item_display 23 234 137 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;14813,653434,4723,6453]}
+summon item_display 17 234 131 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,3434,284723,6453]}
+summon item_display 14 234 131 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,653434,284723,3]}
+summon item_display 11 234 131 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;1413,63434,284723,6453]}
+summon item_display 11 230 133 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;14383,653434,24723,6453]}
+summon item_display 14 230 133 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,6534,2423,6453]}
+summon item_display 17 230 133 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;3813,53434,284723,6453]}
+summon item_display 21 230 137 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;13813,65434,2823,6453]}
+summon item_display 21 230 140 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,653434,28,6453]}
+summon item_display 21 230 143 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;13813,5434,223,6453]}
+summon item_display 17 230 147 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143,653434,284723,6453]}
+summon item_display 14 230 147 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,34,284723,6453]}
+summon item_display 11 230 147 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,64,284723,6453]}
+summon item_display 9 236 133 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;1438,653434,28323,6453]}
+summon item_display 19 236 133 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;14381,65334,28723,3]}
+summon item_display 21 236 135 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;13,6434,284723,63]}
+summon item_display 21 236 145 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;3813,3434,284723,6453]}
+summon item_display 19 236 147 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;813,653434,284723,6453]}
+summon item_display 19 236 147 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;1666,653434,284723,6453]}
+summon item_display 0 233 140 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,653434,1,6453]}
+
+summon item_frame 16.97 222.50 138.50 {Motion: [0.0d, 0.0d, 0.0d], Facing: 4b, ItemRotation: 0b, Invulnerable: 1b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [90.0f, 0.0f], FallDistance: 0.0f, Item: {components: {"minecraft:map_id": 21}, count: 1, id: "minecraft:filled_map"}, ItemDropChance: 1.0f, Fire: -1s, TileY: 222, TileX: 16, Invisible: 0b, TileZ: 138, Fixed: 1b,UUID:[I;34,6457,3453,78666]}
+summon item_frame 16.97 222.50 139.50 {Motion: [0.0d, 0.0d, 0.0d], Facing: 4b, ItemRotation: 0b, Invulnerable: 1b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [90.0f, 0.0f], FallDistance: 0.0f, Item: {components: {"minecraft:map_id": 22}, count: 1, id: "minecraft:filled_map"}, ItemDropChance: 1.0f, Fire: -1s, TileY: 222, TileX: 16, Invisible: 0b, TileZ: 139, Fixed: 1b,UUID:[I;634,647,3453,78666]}
+summon item_frame 16.97 222.50 140.50 {Motion: [0.0d, 0.0d, 0.0d], Facing: 4b, ItemRotation: 0b, Invulnerable: 1b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [90.0f, 0.0f], FallDistance: 0.0f, Item: {components: {"minecraft:map_id": 23}, count: 1, id: "minecraft:filled_map"}, ItemDropChance: 1.0f, Fire: -1s, TileY: 222, TileX: 16, Invisible: 0b, TileZ: 140, Fixed: 1b,UUID:[I;634,6457,353,78666]}
+summon item_frame 16.97 222.50 141.50 {Motion: [0.0d, 0.0d, 0.0d], Facing: 4b, ItemRotation: 0b, Invulnerable: 1b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [90.0f, 0.0f], FallDistance: 0.0f, Item: {components: {"minecraft:map_id": 24}, count: 1, id: "minecraft:filled_map"}, ItemDropChance: 1.0f, Fire: -1s, TileY: 222, TileX: 16, Invisible: 0b, TileZ: 141, Fixed: 1b,UUID:[I;634,6457,3453,7666]}
+summon item_frame 16.97 222.50 142.50 {Motion: [0.0d, 0.0d, 0.0d], Facing: 4b, ItemRotation: 0b, Invulnerable: 1b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [90.0f, 0.0f], FallDistance: 0.0f, Item: {components: {"minecraft:map_id": 25}, count: 1, id: "minecraft:filled_map"}, ItemDropChance: 1.0f, Fire: -1s, TileY: 222, TileX: 16, Invisible: 0b, TileZ: 142, Fixed: 1b,UUID:[I;634,6457,343,7666]}
+summon item_frame 16.97 223.50 138.50 {Motion: [0.0d, 0.0d, 0.0d], Facing: 4b, ItemRotation: 0b, Invulnerable: 1b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [90.0f, 0.0f], FallDistance: 0.0f, Item: {components: {"minecraft:map_id": 26}, count: 1, id: "minecraft:filled_map"}, ItemDropChance: 1.0f, Fire: -1s, TileY: 223, TileX: 16, Invisible: 0b, TileZ: 138, Fixed: 1b,UUID:[I;64,647,3453,78666]}
+summon item_frame 16.97 223.50 139.50 {Motion: [0.0d, 0.0d, 0.0d], Facing: 4b, ItemRotation: 0b, Invulnerable: 1b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [90.0f, 0.0f], FallDistance: 0.0f, Item: {components: {"minecraft:map_id": 27}, count: 1, id: "minecraft:filled_map"}, ItemDropChance: 1.0f, Fire: -1s, TileY: 223, TileX: 16, Invisible: 0b, TileZ: 139, Fixed: 1b,UUID:[I;634,657,3453,7666]}
+summon item_frame 16.97 223.50 140.50 {Motion: [0.0d, 0.0d, 0.0d], Facing: 4b, ItemRotation: 0b, Invulnerable: 1b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [90.0f, 0.0f], FallDistance: 0.0f, Item: {components: {"minecraft:map_id": 28}, count: 1, id: "minecraft:filled_map"}, ItemDropChance: 1.0f, Fire: -1s, TileY: 223, TileX: 16, Invisible: 0b, TileZ: 140, Fixed: 1b,UUID:[I;34,6457,345,78666]}
+summon item_frame 16.97 223.50 141.50 {Motion: [0.0d, 0.0d, 0.0d], Facing: 4b, ItemRotation: 0b, Invulnerable: 1b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [90.0f, 0.0f], FallDistance: 0.0f, Item: {components: {"minecraft:map_id": 29}, count: 1, id: "minecraft:filled_map"}, ItemDropChance: 1.0f, Fire: -1s, TileY: 223, TileX: 16, Invisible: 0b, TileZ: 141, Fixed: 1b,UUID:[I;634,617,3453,78666]}
+summon item_frame 16.97 223.50 142.50 {Motion: [0.0d, 0.0d, 0.0d], Facing: 4b, ItemRotation: 0b, Invulnerable: 1b, Air: 300s, OnGround: 0b, PortalCooldown: 0, Rotation: [90.0f, 0.0f], FallDistance: 0.0f, Item: {components: {"minecraft:map_id": 30}, count: 1, id: "minecraft:filled_map"}, ItemDropChance: 1.0f, Fire: -1s, TileY: 223, TileX: 16, Invisible: 0b, TileZ: 142, Fixed: 1b,UUID:[I;634,6457,23,78666]}
+
+summon text_display 16.99 224.25 140.000 {text:'{"text": "Estas a punto de ingresar a"}',alignment:left,Rotation:[90f,0f],background:13,UUID:[I;125,542,45,756]}
+summon text_display 16.99 221.25 140 {text:'[{"text": "Consulta la guía basica del minijuego para ingresar, con el comando "},{"text": "/kitpvp","color": "light_purple","italic": true}]',alignment:left,Rotation:[90f,0f],background:13,UUID:[I;125,52,45,756]}
+
+#summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,653434,284723,6453]}
+#summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-329941965,-1167766455,-1150007613,-57112474],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhMDc1ZTk1OTI3YWQzZDUyN2YyNWEwODVlYmI0Mjk0NmU1YzZmMzNkNzdjN2ZlMmE5NzAxYmQ1OWE1NDM2NCJ9fX0="}]}}},UUID:[I;143813,653434,284723,6453]}
 
 #YYLWSZTH
 #74

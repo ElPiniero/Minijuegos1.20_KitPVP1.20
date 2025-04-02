@@ -14,7 +14,7 @@ item replace entity @s armor.head with player_head[enchantments={binding_curse:1
 item replace entity @s armor.chest with elytra[unbreakable={},enchantments={projectile_protection:4,binding_curse:1},attribute_modifiers=[{type:"armor",slot:"chest",operation:add_value,id:"armor",amount:3}]]
 item replace entity @s armor.legs with leather_leggings[unbreakable={},dyed_color=1403171,trim={material:"minecraft:emerald",pattern:"minecraft:silence"}]
 item replace entity @s armor.feet with leather_boots[unbreakable={},enchantments={feather_falling:4},dyed_color=1403171,trim={material:"minecraft:emerald",pattern:"minecraft:ward"}]
-give @s potion[custom_name='{"italic":false,"text":"Lanzadores"}',minecraft:potion_contents={custom_color:1167264,custom_effects:[{id:"minecraft:jump_boost",amplifier:24,duration:60,show_particles:0b}]},max_stack_size=10] 10
+execute unless data storage modo_de_pvp {Mapa:"habitacion"} run give @s potion[custom_name='{"italic":false,"text":"Lanzadores"}',minecraft:potion_contents={custom_color:1167264,custom_effects:[{id:"minecraft:jump_boost",amplifier:24,duration:60,show_particles:0b}]},max_stack_size=10] 10
 give @s apple 20
 give @s spectral_arrow[custom_name='[{"text":"Cartucho de Escopeta","italic":false,"color":"white"}]'] 24
 give @s firework_rocket[custom_name='[{"text":"Misil","italic":false}]',fireworks={flight_duration:0b}] 6
@@ -31,6 +31,6 @@ scoreboard players set @s Disparo-Escopeta 8
 playsound entity.horse.armor master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 1
 execute as @s[tag=!supervivencia-z] run fill 14 235 133 14 234 133 iron_bars
 execute as @s[tag=!supervivencia-z] run playsound entity.zombie.attack_iron_door master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 0.7
-execute as @s[tag=!supervivencia-z] run schedule function kitpvp:kits/militar/inicio 4s
+execute as @s[tag=!supervivencia-z] run scoreboard players add @s Desactivando 1
 execute as @s[tag=supervivencia-z,tag=!yamero-survival-z] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/iniciando
 execute as @s[tag=supervivencia-z,tag=!s-z-afavor] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/s-z_a_favor

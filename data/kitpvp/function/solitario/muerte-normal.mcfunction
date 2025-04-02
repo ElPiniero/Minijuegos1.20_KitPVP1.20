@@ -35,4 +35,3 @@ title @s subtitle [{"text":""},{"text":"A ","bold":true,"color":"dark_red"},{"te
 title @s title [{"text":""},{"text":"H","bold":true,"color":"dark_gray"},{"text":"A","bold":true,"color":"#632d2d"},{"text":"S ","bold":true,"color":"#871b1b"},{"text":"C","bold":true,"color":"#ab0909"},{"text":"A","bold":true,"color":"#ab0808"},{"text":"I","bold":true,"color":"#871b1b"},{"text":"D","bold":true,"color":"#632c2c"},{"text":"O","bold":true,"color":"dark_gray"}]
 tag @s remove morido
 tag @s add espectador
-scoreboard players remove #jugadores-vivos Conteo 1

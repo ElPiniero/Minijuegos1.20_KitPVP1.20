@@ -1,15 +1,3 @@
-summon interaction -165 64 64 {Tags:["Zombi-spawn"]}
-summon interaction -137 63 86 {Tags:["Zombi-spawn"]}
-summon interaction 30 68 87 {Tags:["Zombi-spawn"]}
-summon interaction 70 73 56 {Tags:["Zombi-spawn"]}
-summon interaction 60 69 -111 {Tags:["Zombi-spawn"]}
-summon interaction 29 67 -142 {Tags:["Zombi-spawn"]}
-summon interaction -135 76 -134 {Tags:["Zombi-spawn"]}
-summon interaction -169 72 -108 {Tags:["Zombi-spawn"]}
-summon interaction -178 72 -146 {Tags:["ola-spawn"]}
-summon interaction -186 70 104 {Tags:["ola-spawn"]}
-summon interaction 88 69 100 {Tags:["ola-spawn"]}
-summon interaction 79 67 -148 {Tags:["ola-spawn"]}
 scoreboard players set #supervivencia-zombis ZombieBuff 0
 bossbar set lvl1 value 0
 bossbar set lvl1 max 280
@@ -18,13 +6,17 @@ bossbar set lvl1 color white
 data merge storage supervivencia-zombis {Horda:"1"}
 data merge storage supervivencia-zombis {Iniciado:1b}
 scoreboard objectives setdisplay sidebar ZombieShop
-schedule function kitpvp:solitario/hordas/oleada/mini_ola_trigger 1s
+schedule function kitpvp:solitario/hordas/oleada/mini_ola_trigger 10s
 function kitpvp:solitario/hordas/horda_1
 function kitpvp:solitario/producto_tienda
 function kitpvp:cuerpo_del_juego/limpieza_items
 function kitpvp:solitario/materiales_cortos
 schedule clear kitpvp:cuerpo_del_juego/entidades-trampa
 team join Supervivientes @a
+execute if data storage modo_de_pvp {Mapa:"habitacion"} run give @a[tag=!sesion_no_iniciada,gamemode=!spectator] player_head[custom_data={impulso:1b},minecraft:custom_name='{"text":"Sostenlo en tus manos para mantener el impulso","color":"dark_aqua","underlined":true,"bold":true,"italic":false}',profile={id:[I;1295990684,1061900019,-2062854077,-967748123],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIyMjFjYjk2MDdjOGE5YmYwMmZlZjVkNzYxNGUzZWIxNjljYzIxOWJmNDI1MGZkNTcxNWQ1ZDJkNjA0NWY3In19fQ=="}]}] 1
+execute if data storage modo_de_pvp {Mapa:"pueblo"} run spreadplayers -58 -24 1 125 under 139 true @a[tag=!sesion_no_iniciada]
+execute if data storage modo_de_pvp {Mapa:"aldea"} run spreadplayers -320 -32 1 100 under 149 true @a[tag=!sesion_no_iniciada]
+execute if data storage modo_de_pvp {Mapa:"habitacion"} run spreadplayers -112 192 1 50 under 144 true @a[tag=!sesion_no_iniciada]
 tag @a[tag=!sesion_no_iniciada] add survival-ejecutandose
 tag @a[tag=!sesion_no_iniciada,tag=s-z-afavor] add Jugador_Vivo
 stopsound @a[tag=!sesion_no_iniciada] master music.creative

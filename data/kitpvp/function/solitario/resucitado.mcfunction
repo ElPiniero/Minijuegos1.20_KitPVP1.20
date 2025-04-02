@@ -16,7 +16,7 @@ execute as @a[tag=Resucitado,tag=!sesion_no_iniciada] at @s run playsound entity
 execute as @a[tag=Resucitado,tag=!sesion_no_iniciada] run tag @s remove Esperando_Resucitacion
 execute as @a[tag=Resucitado,tag=!sesion_no_iniciada] run tag @s remove Resucitado
 execute as @a[tag=Resucitado,tag=!sesion_no_iniciada,tag=Poseidon] run clear @s trident
-execute as @a[tag=Resucitado,tag=!sesion_no_iniciada,tag=Poseidon] run give @s[tag=Poseidon] trident[unbreakable={},enchantments={levels:{"minecraft:smite":9,"minecraft:loyalty":3}}]
+execute as @a[tag=Resucitado,tag=!sesion_no_iniciada,tag=Poseidon] run give @s[tag=Poseidon] trident[unbreakable={},enchantments={levels:{"minecraft:smite":9,"minecraft:loyalty":3}},attribute_modifiers={modifiers:[{id:"23423",type:"attack_damage",amount:9,operation:"add_value",slot:hand},{id:"666",type:"attack_speed",amount:-2.9,operation:"add_value",slot:hand},{id:"weye",type:"entity_interaction_range",amount:1,operation:"add_value",slot:hand}]}]
 
 execute on vehicle on passengers run kill @s
 execute on vehicle run kill @s

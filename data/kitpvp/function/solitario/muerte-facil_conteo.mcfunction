@@ -25,5 +25,5 @@ execute if score @s Reaparecer matches 201.. if score @s ZombieShop matches 32..
 execute if score @s Reaparecer matches 201.. run tellraw @a[tag=!sesion_no_iniciada] [{"text":"","extra":[{"selector":"@s"}],"bold":true,"color":"blue"},{"text":" resucito","bold":false,"color":"dark_gray"}]
 execute if score @s Reaparecer matches 201.. at @s run playsound entity.allay.ambient_without_item master @a ~ ~ ~ 3 0.7
 execute if score @s Reaparecer matches 201.. run clear @s[tag=Poseidon] trident
-execute if score @s Reaparecer matches 201.. run give @s[tag=Poseidon] trident[unbreakable={},enchantments={levels:{"minecraft:smite":9,"minecraft:loyalty":3}}]
+execute if score @s Reaparecer matches 201.. run give @s[tag=Poseidon] trident[unbreakable={},enchantments={levels:{"minecraft:smite":9,"minecraft:loyalty":3}},attribute_modifiers={modifiers:[{id:"23423",type:"attack_damage",amount:9,operation:"add_value",slot:hand},{id:"666",type:"attack_speed",amount:-2.9,operation:"add_value",slot:hand},{id:"weye",type:"entity_interaction_range",amount:1,operation:"add_value",slot:hand}]}]
 execute if score @s Reaparecer matches 201.. run scoreboard players reset @s Reaparecer

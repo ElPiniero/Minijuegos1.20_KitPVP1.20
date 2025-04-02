@@ -36,7 +36,6 @@ playsound block.beacon.ambient master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 1.5
 playsound block.beacon.ambient master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 1.5
 execute as @s[tag=!supervivencia-z] run fill 17 230 135 17 231 135 iron_bars
 execute as @s[tag=!supervivencia-z] run playsound entity.zombie.attack_iron_door master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 0.7
-execute as @s[tag=!supervivencia-z] run schedule function kitpvp:kits/elite/inicio 4s
+execute as @s[tag=!supervivencia-z] run scoreboard players add @s Desactivando 1
 execute as @s[tag=supervivencia-z,tag=!yamero-survival-z] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/iniciando
 execute as @s[tag=supervivencia-z,tag=!s-z-afavor] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/s-z_a_favor
-

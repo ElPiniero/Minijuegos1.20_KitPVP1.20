@@ -1,4 +1,4 @@
-give @s potion[custom_name='{"italic":false,"text":"Lanzadores"}',minecraft:potion_contents={custom_color:1167264,custom_effects:[{id:"minecraft:jump_boost",amplifier:24,duration:60,show_particles:0b}]},max_stack_size=10] 10
+execute unless data storage modo_de_pvp {Mapa:"habitacion"} run give @s potion[custom_name='{"italic":false,"text":"Lanzadores"}',minecraft:potion_contents={custom_color:1167264,custom_effects:[{id:"minecraft:jump_boost",amplifier:24,duration:60,show_particles:0b}]},max_stack_size=10] 10
 give @s[tag=!supervivencia-z] apple 20
 give @s spectral_arrow[custom_name='[{"text":"Cartucho de Escopeta","italic":false,"color":"white"}]'] 24
 give @s firework_rocket[custom_name='[{"text":"Misil","italic":false}]',fireworks={flight_duration:0b}] 6

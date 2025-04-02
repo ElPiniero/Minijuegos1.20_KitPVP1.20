@@ -30,6 +30,6 @@ tellraw @s [{"text":"","bold": false},{"text":"\u2757 ","color":"red","bold": tr
 playsound entity.allay.ambient_without_item master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 2
 execute as @s[tag=!supervivencia-z] run fill 21 235 143 21 234 143 iron_bars
 execute as @s[tag=!supervivencia-z] run playsound entity.zombie.attack_iron_door master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 0.7
-execute as @s[tag=!supervivencia-z] run schedule function kitpvp:kits/neon/inicio 4s
+execute as @s[tag=!supervivencia-z] run scoreboard players add @s Desactivando 1
 execute as @s[tag=supervivencia-z,tag=!yamero-survival-z] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/iniciando
 execute as @s[tag=supervivencia-z,tag=!s-z-afavor] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/s-z_a_favor

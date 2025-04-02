@@ -2,6 +2,8 @@
     "values":[
         "minecraft:grass_block",
         "minecraft:stone",
-        "minecraft:barrier"
+        "minecraft:barrier",
+        "minecraft:white_concrete",
+        "minecraft:dark_oak_planks"
     ]
 }

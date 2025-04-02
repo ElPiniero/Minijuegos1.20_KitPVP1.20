@@ -1,6 +1,6 @@
 execute if predicate kitpvp:25 run tag @s[tag=!Cumplido] add compra_masa
 execute as @s[tag=compra_masa] run tag @s add Cumplido
-execute as @s[tag=compra_masa] run tellraw @a[tag=!sesion_no_iniciada] [{"text": "- El Iluminado: ","color": "yellow","bold": true},{"text": "Recuerda abrir y cerrar la carta una vez, para luego ejecutar este comando: ","color": "gold","bold": false},{"text": "'trigger [articulo] set [cantidad]'","color": "light_purple","bold": true},{"text": " para comprar articulos en masa, en ves de comprar uno por uno","color": "gold","bold": false}]
+execute as @s[tag=compra_masa] run tellraw @a[tag=!sesion_no_iniciada] [{"text": "- El Iluminado: ","color": "yellow","bold": true},{"text": "Recuerda que puedes comprar articulos en masa al efectuar el comando: ","color": "gold","bold": false},{"text": "'/[articulo] [cantidad]'","color": "light_purple","bold": true},{"text": ", por ejemplo: si quisieras 32 manzanas rapido efectúas:","color": "gold","bold": false},{"text": " '/manzana-encantada 32'","color": "light_purple","bold": true}]
 execute as @s[tag=compra_masa] run tag @s remove compra_masa
 
 execute if predicate kitpvp:25 run tag @s[tag=!Cumplido] add eliminar_horda

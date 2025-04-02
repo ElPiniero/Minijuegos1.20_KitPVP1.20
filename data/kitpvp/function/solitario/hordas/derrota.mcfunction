@@ -1,10 +1,11 @@
-schedule function kitpvp:solitario/hordas/derrota 1t
 schedule clear kitpvp:solitario/hordas/horda_1
 stopsound @a[tag=!sesion_no_iniciada] master music_disc.13
 stopsound @a[tag=!sesion_no_iniciada] master music.nether.soul_sand_valley
 scoreboard players add #derrota ZombieBuff 1
 execute if score #derrota ZombieBuff matches 1 run bossbar set lvl1 visible false
-execute if score #derrota ZombieBuff matches 1 run summon lightning_bolt -56.00001 71 -24.00001
+execute if score #derrota ZombieBuff matches 1 if data storage supervivencia-zombis {Horda:"1"} if data storage modo_de_pvp {Mapa:"pueblo"} run summon lightning_bolt -56 71 -24
+execute if score #derrota ZombieBuff matches 1 if data storage supervivencia-zombis {Horda:"1"} if data storage modo_de_pvp {Mapa:"aldea"} run summon lightning_bolt -320 102 -32
+execute if score #derrota ZombieBuff matches 1 if data storage supervivencia-zombis {Horda:"1"} if data storage modo_de_pvp {Mapa:"habitacion"} run summon lightning_bolt -112 100 192
 execute if score #derrota ZombieBuff matches 1 run title @a[tag=!sesion_no_iniciada] times 1 300 20
 execute if score #derrota ZombieBuff matches 1 run title @a[tag=!sesion_no_iniciada] title [{"text":""},{"text":"M","bold":true,"color":"dark_gray"},{"text":"A","bold":true,"color":"#5e2f2f"},{"text":"L","bold":true,"color":"#7e1f1f"},{"text":"D","bold":true,"color":"#9e0f0f"},{"text":"E","bold":true,"color":"dark_red"},{"text":"C","bold":true,"color":"#9e0f0f"},{"text":"I","bold":true,"color":"#7e1f1f"},{"text":"D","bold":true,"color":"#5e2f2f"},{"text":"O","bold":true,"color":"dark_gray"}]
 execute if score #derrota ZombieBuff matches 1 run title @a[tag=!sesion_no_iniciada] subtitle {"text": " ","color": "dark_gray","bold": true}

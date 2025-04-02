@@ -12,8 +12,8 @@ data merge storage supervivencia-zombis {Horda:"sin_iniciar"}
 data merge storage supervivencia-zombis {Dificultad:"sin_iniciar"}
 data merge storage supervivencia-zombis {Iniciado:0b}
 data merge storage supervivencia-zombis {Activado:1b,UUID:[I;82541557,924562,24684279,236346898]}
-data remove storage modo_de_pvp Modo
 
+execute positioned -4 236 140 run kill @n[type=text_display]
 execute positioned -4 235 141 run kill @n[type=text_display]
 execute positioned -4 234 141 run kill @n[type=text_display]
 execute positioned -4 234 143 run kill @n[type=item_display]

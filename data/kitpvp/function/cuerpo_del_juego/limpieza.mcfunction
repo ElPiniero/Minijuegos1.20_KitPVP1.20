@@ -1,4 +1,5 @@
 kill @e[type=item]
+kill @e[type=item_frame]
 execute as @e[tag=Cerebro_Torreta,type=interaction] at @s run fill ~ ~ ~ ~ ~ ~ air replace snow
 stopsound @a[tag=!sesion_no_iniciada] master music_disc.far
 forceload remove 95 104
@@ -363,6 +364,8 @@ tag @a[tag=!sesion_no_iniciada] remove psd
 tag @a[tag=!sesion_no_iniciada] remove survival-ejecutandose
 tag @a[tag=!sesion_no_iniciada] remove ZBuff
 tag @a[tag=!sesion_no_iniciada] remove Cumplido
+tag @a[tag=!sesion_no_iniciada] remove logros_otorgados
+tag @a[tag=!sesion_no_iniciada] remove logros_registrados
 tag @a[tag=!sesion_no_iniciada] remove Esperando_Resucitacion
 tag @a[tag=!sesion_no_iniciada] remove Efecto
 tag @a[tag=!sesion_no_iniciada] remove yanosabandono
@@ -532,11 +535,8 @@ schedule clear kitpvp:cuerpo_del_juego/musica/musica
 schedule clear kitpvp:solitario/materiales_cortos
 schedule clear kitpvp:solitario/hordas/horda_1
 schedule clear kitpvp:solitario/hordas/oleada/mini_ola_trigger
-schedule clear kitpvp:solitario/hordas/horda_2
-schedule clear kitpvp:solitario/hordas/horda_3
-schedule clear kitpvp:solitario/hordas/horda_4
-schedule clear kitpvp:solitario/hordas/horda_5
 schedule clear kitpvp:solitario/trigger_tienda
+schedule clear kitpvp:solitario/hordas/oleada/reactivacion_zombis
 schedule clear kitpvp:solitario/hordas/victoria/victoria
 schedule clear kitpvp:solitario/hordas/derrota
 schedule clear kitpvp:solitario/hordas/derrota

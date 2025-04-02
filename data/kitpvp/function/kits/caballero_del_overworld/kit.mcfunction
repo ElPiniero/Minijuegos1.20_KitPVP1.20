@@ -34,6 +34,6 @@ tellraw @s [{"text":"","bold": false},{"text":"\u2757 ","color":"red","bold": tr
 playsound entity.mooshroom.convert master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1
 execute as @s[tag=!supervivencia-z] run fill 19 230 140 19 231 140 iron_bars
 execute as @s[tag=!supervivencia-z] run playsound entity.zombie.attack_iron_door master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 0.7
-execute as @s[tag=!supervivencia-z] run schedule function kitpvp:kits/caballero_del_overworld/inicio 4s
+execute as @s[tag=!supervivencia-z] run scoreboard players add @s Desactivando 1
 execute as @s[tag=supervivencia-z,tag=!yamero-survival-z] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/iniciando
 execute as @s[tag=supervivencia-z,tag=!s-z-afavor] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/s-z_a_favor

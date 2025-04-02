@@ -1,5 +1,6 @@
 gamemode adventure @s
 effect clear @s
+scoreboard players reset @s Desactivando
 attribute @s attack_knockback base set 0
 execute on attacker if entity @s[tag=CaDeOv] run scoreboard players add @s Esp_CDO 1
 execute on attacker if entity @s[tag=CaDeNe] run scoreboard players add @s Esp_CDN 1

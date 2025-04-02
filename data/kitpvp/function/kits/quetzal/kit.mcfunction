@@ -18,7 +18,7 @@ item replace entity @s[tag=!supervivencia-z] hotbar.1 with crossbow[unbreakable=
 item replace entity @s[tag=supervivencia-z] hotbar.1 with crossbow[unbreakable={},enchantments={quick_charge:4,"minecraft:power":5,multishot:1}]
 item replace entity @s hotbar.2 with bread 16
 item replace entity @s hotbar.3 with golden_apple 10
-give @s potion[minecraft:custom_name='{"italic":false,"text":"Lanzadores"}',minecraft:potion_contents={custom_color:11071079,custom_effects:[{id:"minecraft:jump_boost",amplifier:24,duration:60,show_particles:0b}]},max_stack_size=10] 10
+execute unless data storage modo_de_pvp {Mapa:"habitacion"} run give @s potion[minecraft:custom_name='{"italic":false,"text":"Lanzadores"}',minecraft:potion_contents={custom_color:11071079,custom_effects:[{id:"minecraft:jump_boost",amplifier:24,duration:60,show_particles:0b}]},max_stack_size=10] 10
 item replace entity @s hotbar.5 with cookie[custom_name='[{"text":"Galleta de la suerte","italic":false,"color": "gold"}]'] 10
 item replace entity @s inventory.0 with spectral_arrow 64
 item replace entity @s inventory.1 with spectral_arrow 64
@@ -28,7 +28,6 @@ tellraw @s [{"text":"","bold": false},{"text":"\u2757 ","color":"red","bold": tr
 playsound entity.parrot.ambient master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 1
 execute as @s[tag=!supervivencia-z] run fill 17 230 145 17 231 145 iron_bars
 execute as @s[tag=!supervivencia-z] run playsound entity.zombie.attack_iron_door master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 0.7
-execute as @s[tag=!supervivencia-z] run schedule function kitpvp:kits/quetzal/inicio 4s
+execute as @s[tag=!supervivencia-z] run scoreboard players add @s Desactivando 1
 execute as @s[tag=supervivencia-z,tag=!yamero-survival-z] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/iniciando
 execute as @s[tag=supervivencia-z,tag=!s-z-afavor] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/s-z_a_favor
-

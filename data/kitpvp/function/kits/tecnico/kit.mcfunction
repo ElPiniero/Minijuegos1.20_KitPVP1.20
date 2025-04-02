@@ -13,7 +13,7 @@ item replace entity @s[tag=supervivencia-z] hotbar.0 with golden_pickaxe[unbreak
 item replace entity @s[tag=!supervivencia-z] hotbar.1 with crossbow[unbreakable={},enchantments={quick_charge:2,piercing:2}]
 item replace entity @s[tag=supervivencia-z] hotbar.1 with crossbow[unbreakable={},enchantments={quick_charge:4,piercing:10}]
 item replace entity @s hotbar.2 with baked_potato 16
-give @s potion[minecraft:custom_name='{"italic":false,"text":"Lanzador"}',minecraft:potion_contents={custom_color:16425988,custom_effects:[{id:"minecraft:jump_boost",amplifier:24,duration:60,show_particles:0b}]},max_stack_size=10] 10
+execute unless data storage modo_de_pvp {Mapa:"habitacion"} run give @s potion[minecraft:custom_name='{"italic":false,"text":"Lanzador"}',minecraft:potion_contents={custom_color:16425988,custom_effects:[{id:"minecraft:jump_boost",amplifier:24,duration:60,show_particles:0b}]},max_stack_size=10] 10
 give @s potion[custom_name='[{"text":"Pocion de fuerza","italic":false}]',potion_contents={custom_color:16770560,custom_effects:[{id:"minecraft:strength",duration:4800,amplifier:1,show_particles:1b}]}] 2
 give @s potion[minecraft:custom_name='{"italic":false,"text":"Pocion de regeneracion"}',minecraft:potion_contents={custom_color:15754217,custom_effects:[{id:"minecraft:regeneration",amplifier:1,duration:1800,show_particles:1b}]}] 2
 item replace entity @s inventory.0 with totem_of_undying
@@ -27,6 +27,6 @@ tellraw @s [{"text":"","bold": false},{"text":"\u2757 ","color":"red","bold": tr
 playsound entity.firework_rocket.launch master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 1
 execute as @s[tag=!supervivencia-z] run fill 17 235 147 17 234 147 iron_bars
 execute as @s[tag=!supervivencia-z] run playsound entity.zombie.attack_iron_door master @a[tag=!sesion_no_iniciada] ~ ~ ~ 1 0.7
-execute as @s[tag=!supervivencia-z] run schedule function kitpvp:kits/tecnico/inicio 4s
+execute as @s[tag=!supervivencia-z] run scoreboard players add @s Desactivando 1
 execute as @s[tag=supervivencia-z,tag=!yamero-survival-z] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/iniciando
 execute as @s[tag=supervivencia-z,tag=!s-z-afavor] run function kitpvp:cuerpo_del_juego/votos/survival-z/inicio/s-z_a_favor

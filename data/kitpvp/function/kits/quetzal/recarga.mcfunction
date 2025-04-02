@@ -1,6 +1,6 @@
 give @s[tag=!supervivencia-z] bread 16
 give @s[tag=!supervivencia-z] golden_apple 10
-give @s potion[minecraft:custom_name='{"italic":false,"text":"Lanzadores"}',minecraft:potion_contents={custom_color:11071079,custom_effects:[{id:"minecraft:jump_boost",amplifier:24,duration:60,show_particles:0b}]},max_stack_size=10] 10
+execute unless data storage modo_de_pvp {Mapa:"habitacion"} run give @s potion[minecraft:custom_name='{"italic":false,"text":"Lanzadores"}',minecraft:potion_contents={custom_color:11071079,custom_effects:[{id:"minecraft:jump_boost",amplifier:24,duration:60,show_particles:0b}]},max_stack_size=10] 10
 give @s cookie[custom_name='[{"text":"Galleta de la suerte","italic":false,"color": "gold"}]'] 10
 give @s[tag=!supervivencia-z] spectral_arrow 64
 execute if score @s Racha matches 12 run give @s[tag=!supervivencia-z] bread 16

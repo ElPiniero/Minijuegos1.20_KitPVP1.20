@@ -2,3 +2,7 @@
 #schedule function kitpvp:test 1t
 #function kitpvp:solitario/hordas/oleada/oleadas
 #tp ElPiniero @n[type=#zombies,tag=lider-ola,tag=nuevo2]
+scoreboard objectives add id-de-usuario dummy
+spreadplayers 0 400 25 50 under 146 false @s
+#summon item_display -4 235 143 {Tags:["modo-eliminacion"],Motion: [0.0d, 0.0d, 0.0d], glow_color_override: 655104, item: {components: {"minecraft:profile": "{properties: [{name: \"textures\", value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI2OWI0MDkzYjA4Yjk4NDFhYjMzMjdjZjc4MDRmMDQyYzI3MWI5ZTZiOTk3OTJmZjllYmM1OTgxMmEyOGUxYSJ9fX0=\"}], id: [I; -1679339935, -1900460474, -1502236591, 1080088365]}"}, count: 1, id: "minecraft:player_head"}, shadow_radius: 0.0f, Invulnerable: 0b, Air: 300s, OnGround: 1b, PortalCooldown: 0, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, -0.37f, -0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 0.5f, 1.0f]}, billboard: "fixed", shadow_strength: 1.0f, Rotation: [-90.0f, 90.0f], interpolation_duration: 0, teleport_duration: 0, FallDistance: 0.0f, Pos: [-3.5d, 235.0d, 142.5d], Fire: 0s, width: 0.0f, item_display: "fixed", view_range: 1.0f, UUID: [I; 570414625, -517193338, -1576374045, -1492096122], height: 0.0f,UUID:[I;825557,924562,24684279,236346898]}
+#give @s iron_ingot[use_cooldown={seconds:5,cooldown_group:test},consumable={consume_seconds:0,sound:"item.shield.break",has_consume_particles:false},use_remainder={id:"minecraft:shield",count:1,components:{use_cooldown:{seconds:5,cooldown_group:test}}}]

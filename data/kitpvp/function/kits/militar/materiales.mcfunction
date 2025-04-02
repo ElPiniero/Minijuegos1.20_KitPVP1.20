@@ -15,5 +15,6 @@ function kitpvp:kits/militar/lanzamisiles/trigger
 execute as @e[tag=e-recargar,type=interaction] at @s unless entity @p[tag=Recarga,distance=..2] run kill @s
 execute as @e[tag=r-recargar,type=interaction] at @s unless entity @p[tag=Recarga,distance=..2] run kill @s
 execute as @a[tag=!sesion_no_iniciada,scores={Salto=1..},nbt={active_effects:[{amplifier:24b,id:"minecraft:jump_boost"}]},tag=Militar] at @s run function kitpvp:kits/militar/lanzador
-execute as @a[tag=!sesion_no_iniciada,nbt={active_effects:[{amplifier:1b,id:"minecraft:slow_falling"}]},tag=Militar] at @s run function kitpvp:kits/militar/lanzador
+execute as @a[tag=!sesion_no_iniciada,nbt={active_effects:[{amplifier:1b,id:"minecraft:slow_falling"}]}] positioned ^ ^ ^-1 run particle poof ~ ~ ~ .1 .1 .1 .01 2 force
+execute as @a[tag=!sesion_no_iniciada,nbt={active_effects:[{amplifier:1b,id:"minecraft:slow_falling"}],OnGround:1b}] run effect clear @s slow_falling
 scoreboard players reset @s[scores={Salto=1..}] Salto

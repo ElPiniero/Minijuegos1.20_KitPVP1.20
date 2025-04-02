@@ -30,6 +30,8 @@ tag @s remove E-Recargar
 tag @s remove reinicio-afavor
 tag @s remove s-z
 tag @s remove atinado
+tag @s remove logros_otorgados
+tag @s remove logros_registrados
 tag @s remove Jugador_Zombi
 tag @s remove leatine
 tag @s remove meatinaron

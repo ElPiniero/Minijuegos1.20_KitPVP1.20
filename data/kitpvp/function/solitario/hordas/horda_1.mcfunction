@@ -1,22 +1,26 @@
 schedule function kitpvp:solitario/hordas/horda_1 2s
 bossbar set lvl1 players @a[tag=!sesion_no_iniciada]
 
-#=============================HORDA 1=============================#
-
 scoreboard players reset #zombis Zombis
 advancement grant @a only kitpvp:kitpvp/zombis/zombis
 execute as @e[type=#zombies] run scoreboard players add #zombis Zombis 1
 
 scoreboard players reset #jugadores-vivos Conteo
-execute as @a[tag=!sesion_no_iniciada,gamemode=!spectator,tag=!Jugador_Zombi] run scoreboard players add #jugadores-vivos Conteo 1
+execute as @a[tag=!sesion_no_iniciada,gamemode=!spectator] run scoreboard players add #jugadores-vivos Conteo 1
+execute as @a[tag=!sesion_no_iniciada,gamemode=spectator] if score @s Reaparecer matches 1.. run scoreboard players add #jugadores-vivos Conteo 1
 
+#=============================HORDA 1=============================#
 execute unless score #supervivencia-zombis ZombieBuff matches 280.. unless data storage supervivencia-zombis {Horda:"5"} run return fail
 #=============================HORDA 2=============================#
 
 execute if data storage supervivencia-zombis {Horda:"1"} as @a[tag=!sesion_no_iniciada] if score @s RegistrarDiamante matches 1.. run function kitpvp:solitario/diamantes/trigger_diamantes
 execute if data storage supervivencia-zombis {Horda:"1"} run playsound ambient.cave master @a[tag=!sesion_no_iniciada] ~ ~ ~ 100 0 1
 execute if data storage supervivencia-zombis {Horda:"1"} run playsound block.respawn_anchor.set_spawn master @a[tag=!sesion_no_iniciada] ~ ~ ~ 100 0 1
-execute if data storage supervivencia-zombis {Horda:"1"} run summon lightning_bolt -56 71 -24
+
+execute if data storage supervivencia-zombis {Horda:"1"} if data storage modo_de_pvp {Mapa:"pueblo"} run summon lightning_bolt -56 71 -24
+execute if data storage supervivencia-zombis {Horda:"1"} if data storage modo_de_pvp {Mapa:"aldea"} run summon lightning_bolt -320 102 -32
+execute if data storage supervivencia-zombis {Horda:"1"} if data storage modo_de_pvp {Mapa:"habitacion"} run summon lightning_bolt -112 100 192
+
 #executeifs data storage supervivencia-zombis {Horda:"2"} run tag @a[tag=Jugador_Vivo,tag=!sesion_no_iniciada] add lg_austeridad
 execute if data storage supervivencia-zombis {Horda:"1"} run bossbar set lvl1 name ["",{"text":"Llanto del espiritu","color":"red"}]
 execute if data storage supervivencia-zombis {Horda:"1"} run bossbar set lvl1 max 700
@@ -32,7 +36,9 @@ execute unless score #supervivencia-zombis ZombieBuff matches 700.. unless data 
 execute if data storage supervivencia-zombis {Horda:"2"} as @a[tag=!sesion_no_iniciada] if score @s RegistrarDiamante matches 1.. run function kitpvp:solitario/diamantes/trigger_diamantes
 execute if data storage supervivencia-zombis {Horda:"2"} run playsound ambient.cave master @a[tag=!sesion_no_iniciada] ~ ~ ~ 100 0 1
 execute if data storage supervivencia-zombis {Horda:"2"} run playsound block.respawn_anchor.set_spawn master @a[tag=!sesion_no_iniciada] ~ ~ ~ 100 0 1
-execute if data storage supervivencia-zombis {Horda:"2"} run summon lightning_bolt -56 71 -24
+execute if data storage supervivencia-zombis {Horda:"2"} if data storage modo_de_pvp {Mapa:"pueblo"} run summon lightning_bolt -56 71 -24
+execute if data storage supervivencia-zombis {Horda:"2"} if data storage modo_de_pvp {Mapa:"aldea"} run summon lightning_bolt -320 102 -32
+execute if data storage supervivencia-zombis {Horda:"2"} if data storage modo_de_pvp {Mapa:"habitacion"} run summon lightning_bolt -112 100 192
 execute if data storage supervivencia-zombis {Horda:"2"} run bossbar set lvl1 name {"text":"Encuentro Maldito","bold":true,"color":"red"}
 execute if data storage supervivencia-zombis {Horda:"2"} run bossbar set lvl1 max 1260
 execute if data storage supervivencia-zombis {Horda:"2"} run data merge storage supervivencia-zombis {Horda:"3"}
@@ -47,7 +53,9 @@ execute unless score #supervivencia-zombis ZombieBuff matches 1260.. unless data
 execute if data storage supervivencia-zombis {Horda:"3"} as @a[tag=!sesion_no_iniciada] if score @s RegistrarDiamante matches 1.. run function kitpvp:solitario/diamantes/trigger_diamantes
 execute if data storage supervivencia-zombis {Horda:"3"} run playsound ambient.cave master @a[tag=!sesion_no_iniciada] ~ ~ ~ 100 0 1
 execute if data storage supervivencia-zombis {Horda:"3"} run playsound block.respawn_anchor.set_spawn master @a[tag=!sesion_no_iniciada] ~ ~ ~ 100 0 1
-execute if data storage supervivencia-zombis {Horda:"3"} run summon lightning_bolt -56 71 -24
+execute if data storage supervivencia-zombis {Horda:"3"} if data storage modo_de_pvp {Mapa:"pueblo"} run summon lightning_bolt -56 71 -24
+execute if data storage supervivencia-zombis {Horda:"3"} if data storage modo_de_pvp {Mapa:"aldea"} run summon lightning_bolt -320 102 -32
+execute if data storage supervivencia-zombis {Horda:"3"} if data storage modo_de_pvp {Mapa:"habitacion"} run summon lightning_bolt -112 100 192
 execute if data storage supervivencia-zombis {Horda:"3"} run function kitpvp:solitario/hordas/emboscadores
 execute if data storage supervivencia-zombis {Horda:"3"} run bossbar set lvl1 max 2000
 execute if data storage supervivencia-zombis {Horda:"3"} run bossbar set lvl1 name ["",{"text":"|","bold":true,"underlined":true,"obfuscated":true,"color":"red"},{"text":" Putrefaccion Santa ","bold":true,"underlined":true,"color":"dark_red"},{"text":"|","bold":true,"underlined":true,"obfuscated":true,"color":"red"}]
@@ -69,7 +77,9 @@ execute if data storage supervivencia-zombis {Horda:"4"} run playsound ambient.c
 execute if data storage supervivencia-zombis {Horda:"4"} run playsound block.respawn_anchor.set_spawn master @a[tag=!sesion_no_iniciada] ~ ~ ~ 100 0 1
 execute if data storage supervivencia-zombis {Horda:"4"} run stopsound @a[tag=!sesion_no_iniciada] master music.nether.soul_sand_valley
 execute if data storage supervivencia-zombis {Horda:"4"} as @a[tag=!sesion_no_iniciada] at @s run function kitpvp:cuerpo_del_juego/musica/reiniciar_musica
-execute if data storage supervivencia-zombis {Horda:"4"} run summon lightning_bolt -56 71 -24
+execute if data storage supervivencia-zombis {Horda:"4"} if data storage modo_de_pvp {Mapa:"pueblo"} run summon lightning_bolt -56 71 -24
+execute if data storage supervivencia-zombis {Horda:"4"} if data storage modo_de_pvp {Mapa:"aldea"} run summon lightning_bolt -320 102 -32
+execute if data storage supervivencia-zombis {Horda:"4"} if data storage modo_de_pvp {Mapa:"habitacion"} run summon lightning_bolt -112 100 192
 execute if data storage supervivencia-zombis {Horda:"4"} run bossbar set lvl1 name ["",{"text":"/","bold":true,"underlined":true,"obfuscated":true,"color":"dark_red"},{"text":"-_","bold":true,"underlined":true,"color":"dark_red"},{"text":"RUINAS DE FE","bold":true,"strikethrough":true,"underlined":true,"color":"dark_red"},{"text":"_-","bold":true,"underlined":true,"color":"dark_red"},{"text":"/","bold":true,"underlined":true,"obfuscated":true,"color":"dark_red"}]
 execute if data storage supervivencia-zombis {Horda:"4"} run bossbar set lvl1 color red
 execute if data storage supervivencia-zombis {Horda:"4"} run data merge storage supervivencia-zombis {Horda:"5"}
@@ -84,7 +94,9 @@ effect give @e[tag=emboscador] invisibility infinite 0 true
 effect give @e[type=#zombies] strength infinite 10 true
 effect give @e[type=#zombies] resistance infinite 4 true
 effect give @e[type=#zombies] fire_resistance infinite 0 true
-summon lightning_bolt -56 71 -24
+execute if data storage modo_de_pvp {Mapa:"pueblo"} run summon lightning_bolt -56 71 -24
+execute if data storage modo_de_pvp {Mapa:"aldea"} run summon lightning_bolt -320 102 -32
+execute if data storage modo_de_pvp {Mapa:"habitacion"} run summon lightning_bolt -112 100 192
 execute if score #supervivencia-zombis ZombieBuff matches 195..390 run tp @e[type=#zombies,limit=20,sort=random] @r[gamemode=!spectator]
 execute if score #supervivencia-zombis ZombieBuff matches 0..195 as @a[tag=!sesion_no_iniciada] run tp @e[type=#zombies,limit=10,sort=random] @s[gamemode=!spectator]
 execute if score #supervivencia-zombis ZombieBuff matches ..0 run function kitpvp:solitario/hordas/victoria/victoria

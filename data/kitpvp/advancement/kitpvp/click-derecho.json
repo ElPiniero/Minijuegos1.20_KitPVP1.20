@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "components": {
+              "minecraft:consumable": {
+                "consume_seconds": 0.0,
+                "animation": "none",
+                "sound": "minecraft:block.vault.step",
+                "has_consume_particles": false
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

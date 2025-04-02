@@ -1,0 +1,2 @@
+$execute store success score #apto-pa-spread Conteo run spreadplayers ~ ~ 1 3 under $(y) false @s
+$execute unless score #apto-pa-spread Conteo matches 1 at @p[tag=target] run spreadplayers ~ ~ 1 30 under $(y) false @s
